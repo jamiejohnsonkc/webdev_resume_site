@@ -1,0 +1,8 @@
+need to install and import vertical-rhythym-rest via npm and import it via sass.
+It requires js 1.7.1 and babel core to run:
+
+npm install
+npm i gulp-babel
+npm i vertical-rhythm-reset
+npm install --save-dev @babel/core
+npm i jquery@1.9.1 --save

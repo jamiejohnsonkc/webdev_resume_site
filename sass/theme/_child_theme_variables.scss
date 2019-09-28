@@ -1,0 +1,24 @@
+    // Use this file to overwrite the basic Bootstrap variables and add your own variables
+    // To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder. 
+    // Just copy a variable from /sass/bootstrap/_variables.scss, paste it here and edit the value.
+    // As example you find one of the most important Bootstrap variable below: $brand-primary.
+    // Thats the ugly Bootstrap blue used for all the links, primary buttons etc.
+    // Just add your color code here, compile the theme.scss file to change this color everywhere
+    //
+    // Color system
+    //
+    $enable-responsive-font-sizes: false !default;
+    $breakpoints: ( "phone": 25em, "phone-wide": 30em, "phablet": 35em, "tablet-small": 40em, "tablet": 48em, "tablet-wide": 64em, "desktop": 78em, "desktop-wide": 90em, "desktop-hd": 118em, "desktop-uhd": 160em);
+    $vr-modular‑scale: perfect-fifth;
+    @include vr-reset($helpers: false, $font-size: 16px, $modular-scale: perfect-fifth, $breakpoints:( 1em: ( font-size: 9px, line-height: 2, modular-scale: perfect-fifth, grid-color: blue), 25em: ( // 400px iphone X
+    font-size: 11px, line-height: 1.5, modular-scale: perfect-fifth, grid-color: indigo), 30em: ( // 480px pixel II
+    // font-size: 9px, line-height: 1.5, modular-scale: perfect-fifth, grid-color: purple), 35em: ( // 560px Samsung Galaxy Tab II
+    // font-size: 9px, line-height: 1.5, modular-scale: perfect-fifth, grid-color: pink), 40em: ( // 640px iPhone 5
+    font-size: 18px, line-height: 1.5, modular-scale: perfect-fifth, grid-color: red), 48em: ( // 768px
+    font-size: 15px, line-height: 1.5, modular-scale: perfect-fifth, grid-color: orange, ), 64em: ( // 1024px
+    font-size: 10px, line-height: 1.5, modular-scale: perfect-fifth, grid-color: yellow, ), 78em: ( // 1248px
+    font-size: 10px, line-height: 1.5, modular-scale: perfect-fifth, grid-color: green, ), 90em: ( // 1440px
+    font-size: 12px, line-height: 1.5, modular-scale: perfect-fifth, grid-color: teal, ), 118em: ( // 1920px
+    font-size: 13px, line-height: 1.5, modular-scale: perfect-fifth, grid-color: cyan, ), 160rem: ( // 2560px
+    font-size: 16px, line-height: 1.5, modular-scale: perfect-fifth, grid-color: gray, )));
+    $primary: #a6adb4;

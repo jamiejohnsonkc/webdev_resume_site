@@ -1,0 +1,158 @@
+.sidebar__container {
+    display: none;
+}
+
+
+/*=============================================
+=            global           =
+=============================================*/
+
+// .sidebar__content-container,
+// .sidebar__footer {
+//     @include vr($padding-left: 3);
+// }
+
+/*=============================================
+=            sidebar container        =
+=============================================*/
+
+.sidebar__container {
+    height: 100vh;
+    // position: fixed;
+    // z-index: 1;
+    // top: 0;
+    // left: 0;
+    // background-color: rgb(0, 0, 0);
+    // background-color: rgba(0, 0, 0, 0.9);
+    background: rgba(255, 255, 255, 1);
+    // overflow-x: hidden;
+    // transition: 0.5s;
+    // -webkit-box-shadow: 24px 19px 22px -13px rgba(0, 0, 0, .8);
+    // -moz-box-shadow: 24px 19px 22px -13px rgba(0, 0, 0, .8);
+    // box-shadow: 24px 19px 22px -13px rgba(0, 0, 0, .8);
+    flex-direction: column;
+    background: #202124;
+    position: fixed;
+    width: 23%;
+}
+
+.wrapper {
+    padding: 0;
+}
+
+
+/*=============================================
+=            sidebar content        =
+=============================================*/
+
+.svg__site-glyph {
+    width: 61%;
+    min-height: 10rem;
+    display: flex;
+    align-self: center;
+    fill: #949697;
+}
+
+.sidebar__content-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 60rem;
+    flex: 1;
+}
+
+.sidebar__menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 36em;
+    justify-content: center;
+}
+
+.sidebar__content-container a {
+    max-width: 61%;
+    width: 61%;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #949697;
+    display: flex;
+    transition: 0.3s;
+    @include vr($font-size: 1, $line-height: .5);
+}
+
+// .overlay a:hover {
+//     color: #202124;
+// }
+.icon__sidebar-nav {
+    fill: #949697;
+    display: flex;
+    @include vr($width: 1);
+    @include mq('desktop') {
+        @include vr($width: .75);
+    }
+}
+
+.nav-item__sidebar {
+    width: 8rem;
+    max-width: 8rem;
+    display: flex;
+    text-transform: uppercase;
+    @include vr($font-size: 1);
+    @include mq('desktop') {
+        @include vr($font-size: 0);
+    }
+}
+
+.sidebar a:focus,
+.sidebar a:hover {
+    color: #202124;
+    & .icon__sidebar-nav {
+        fill: #202124;
+    }
+}
+
+
+/*=============================================
+=            Overlay footer            =
+=============================================*/
+
+// .sidebar__footer {
+//     min-height: 8rem;
+//     background: #949697;
+//     display: flex;
+//     flex: 1;
+//     flex-direction: column;
+//     flex-wrap: wrap;
+//     justify-content: center;
+// }
+.container__sidebar-icons {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    min-height: 10em;
+    justify-content: center;
+    // flex: 1 0 100%;
+    // flex-direction: row;
+}
+
+.icon__contact--sidebar {
+    fill: #f1f1f1;
+    @include vr($width: 2, $margin-right: .25, $margin-left: .25);
+}
+
+.sidebar-footer__text {
+    text-transform: uppercase;
+    color: #f1f1f1;
+}
+
+.sidebar-footer__head {
+    @include vr($font-size: 2);
+    display: block;
+}
+
+.sidebar-footer__subhead {
+    @include vr($margin-bottom: 1);
+}
