@@ -1,0 +1,53 @@
+
+@include mq('tablet-wide') {
+
+    .site-main {
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        flex-direction: row;
+    }
+    .svg__site-glyph {
+        width: 50%;
+        max-width: 50%;
+        @include vr($margin-bottom: 2);
+    }
+    article {
+        position: relative;
+        left: 23%;
+        width: 77%;
+        display: flex;
+        flex-direction: column;
+        @include vr($padding-left: 0);
+    }
+    section {
+        @include vr($padding-left: 3);
+    }
+    .intro__container {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .intro__content {
+        flex: 0 1;
+    }
+    .intro__content,
+    .projects,
+    .priors,
+    .about {
+        max-width: 83%;
+    }
+
+  .about{
+        @include vr($margin-top: 3);
+    }
+    .section__projects, .section__availability {
+        @include vr($margin: 6 0 6 0);
+    }
+    .priors__background {
+        @include vr($margin-top: 2);
+    }
+  
+}

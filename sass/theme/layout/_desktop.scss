@@ -1,0 +1,14 @@
+@include mq('desktop') {
+    .projects .flex-container {
+        display: flex;
+    }
+    .project-image {
+        flex: 2;
+    }
+    .project-description {
+        flex: 1;
+        p {
+            width: 100%;
+        }
+    }
+}

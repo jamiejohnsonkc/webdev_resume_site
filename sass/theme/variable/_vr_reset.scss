@@ -1,0 +1,17 @@
+$vr-modular‑scale: perfect-fifth;
+
+@include vr-reset($helpers: false, $font-size: 16px, $modular-scale: perfect-fifth, $breakpoints:( 
+    1em:             ( font-size: 9px,  line-height: 2,   modular-scale: perfect-fifth, grid-color: blue),     //375px iPhone V
+    25em:            ( font-size: 11px, line-height: 1.5, modular-scale: perfect-fifth, grid-color: indigo),   // 400px iphone X
+    30em:            ( font-size: 9px,  line-height: 1.5, modular-scale: perfect-fifth, grid-color: purple),   // 480px pixel II 
+    35em:            ( font-size: 9px,  line-height: 1.5, modular-scale: perfect-fifth, grid-color: pink),     // 560px Samsung Galaxy
+    40em:            ( font-size: 18px, line-height: 1.5, modular-scale: perfect-fifth, grid-color: red),      // 640px iphone se
+    48em:            ( font-size: 15px, line-height: 1.5, modular-scale: perfect-fifth, grid-color: orange),   // 768px iPad vert
+    64em:            ( font-size: 10px, line-height: 1.5, modular-scale: perfect-fifth, grid-color: yellow),   // 1024px iPad horz
+    78em:            ( font-size: 10px, line-height: 1.5, modular-scale: perfect-fifth, grid-color: green),    // 1248px desktop common
+    90em:            ( font-size: 12px, line-height: 1.5, modular-scale: perfect-fifth, grid-color: teal),     // 1440px desktop wide
+    118em:           ( font-size: 13px, line-height: 1.5, modular-scale: perfect-fifth, grid-color: cyan),     // 1920px desktop hd
+    160em:           ( font-size: 16px, line-height: 1.5, modular-scale: perfect-fifth, grid-color: blue),     // 2560px desktop uhd
+    240em:           ( font-size: 18px, line-height: 1.5, modular-scale: perfect-fifth, grid-color: indigo),   // 3840px desktop uhd common
+    320em:           ( font-size: 18px, line-height: 1.5, modular-scale: perfect-fifth, grid-color: purple),   // 5120px retina
+));

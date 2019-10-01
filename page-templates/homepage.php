@@ -162,9 +162,19 @@ get_header();
 </div>
 </section>
 
+ 
+<section class="section__availability">
+<h3>availability</h3>
+<h4>24/7</h4>
+<p>Okay maybe not 24/7 but this isn't a part time thing. I'm looking to bone up my digital chops and earn a little green until I can get my own thing up and running</p>
+<h4>I'm down for whatever: Contract. Freelance. Support.</h4>
+<p>Send me your cumbersome, tired and menial tasks to free you up for bigger and better things.</p>
+</section>
 
 
-<section class="priors__background skewed skewed--top">
+
+
+<section class="priors__background skewed skewed__reverse--top">
 <div class="priors">
 <h3>prior experience</h3>
 

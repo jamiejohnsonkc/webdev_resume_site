@@ -1,0 +1,51 @@
+
+.text__contact {
+    @include vr($font-size: 1, $margin-bottom: 2, $line-height: 1.5);
+    color: $text-muted;
+    text-transform: uppercase;
+}
+
+
+.icon__contact {
+    @include vr($margin-top: 2, $width: 3);
+}
+
+h4.project-name {
+    @include vr($margin-bottom: 1);
+    // text-transform: none;
+}
+
+.screengrab {
+    width: 83%;
+    @include vr($margin-bottom: 1);
+}
+
+.project-caption {
+    @include vr($font-size: 0);
+}
+
+.skills {
+    max-width: 83%;
+}
+
+.skills h4 {
+    @include vr($margin-top: 3);
+}
+
+.icon__skills {
+    max-width: 16.8%;
+    @include vr($margin-bottom: 1, $width: 3);
+}
+
+
+
+
+@include mq('tablet-wide',
+$type:max) {
+    #full-width-page-wrapper {
+        @include vr($padding-top: 5);
+    }
+    .site-main {
+        @include vr($padding-left: 1, $padding-right: 1);
+    }
+}

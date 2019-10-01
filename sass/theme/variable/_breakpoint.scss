@@ -1,0 +1,14 @@
+    $breakpoints: (                 // < iPhone V
+        "phone": 25em,              // 400px  iphone X
+        "phone-wide": 30em,         // 480px  pixel II 
+        "phablet": 35em,            // 560px  samsung Galaxy Tab II
+        "tablet-small": 40em,       // 640px  iPhone Vse
+        "tablet": 48em,             // 768px  iPad vert
+        "tablet-wide": 64em,        // 1024px iPad horz
+        "desktop": 78em,            // 1248px desktop common
+        "desktop-wide": 90em,       // 1440px desktop wide
+        "desktop-hd": 118em,        // 1920px desktop hd
+        "desktop-uhd": 160em,       // 2560px desktop uhd
+        "desktop-uhd-xl": 240em,    // 3840px desktop uhd common
+        "desktop-retina": 320em,    // 5120px retina
+        ); 
