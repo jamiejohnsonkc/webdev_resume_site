@@ -1,0 +1,150 @@
+/*=============================================
+=            section background colors           =
+=============================================*/
+.intro__container {
+    background-image: linear-gradient(to right top, #f28d35, #f28029, #f2721e, #f26214, #f2500b, #ee4608, #e93b06, #e52e05, #db2c05, #d22a04, #c82804, #bf2604);
+}
+.skills__background {
+    background: $blaze;
+}
+.priors__background {
+    background: $secondary;
+}
+
+.footer{
+    background: #9997a6;
+}
+
+
+/*=============================================
+=            overlay / mobile navbar            =
+=============================================*/
+.navbar__mobile{ 
+    // background: #9997a6;
+    background: transparent;
+}
+
+.svg__site-glpyh{
+    fill: $white;
+}
+
+.svg__site-glyph--reversed {
+    fill: $primary-100;
+}
+
+a.closebtn{
+    color: $primary-100;
+}
+
+.navbar-toggler-icon {} //color set in background-image property in layout.scss
+
+.overlay{
+   
+}
+
+.overlay__content{
+    background: $white;
+}
+.overlay__footer{
+    background: $primary-200;
+}
+
+.icon__sidebar-nav{
+    fill: $black;
+} 
+
+/*=============================================
+=            sidebar            =
+=============================================*/
+
+.sidebar__container{
+    background: $primary-100;
+
+}
+
+.sidebar__content-container a{
+    color: $white;
+}
+
+
+
+/*=============================================
+=            misc elements            =
+=============================================*/
+button:focus {
+    outline-color: transparent;
+}
+
+.scroll-top{
+    background: #000;
+    border-radius: 100%;
+}
+
+.scrollup{
+fill: $white;
+}
+
+
+/*=============================================
+=            iconography            =
+=============================================*/
+
+.icon__contact, .icon{
+    fill: $white;
+}
+
+.icon__overlay-nav{
+fill: $primary-100;
+}
+
+.icon__sidebar-nav{
+    fill: $white;
+}
+
+
+/*=============================================
+=            text            =
+=============================================*/
+
+
+a {
+    color: $secondary;
+}
+
+.projects{
+        color: $primary-300;
+}
+
+
+/* section-specific */
+
+.intro__container{
+    color: $white;
+}
+
+.skills{
+    color: $white;
+}
+
+.section__availability{
+h3, h4{
+color: $accent;
+}
+}
+
+.priors__background{
+    color: $white;
+}
+
+
+
+/*=============================================
+=            footer            =
+=============================================*/
+#wrapper-footer{
+    background: #000;
+    color: $primary;
+}
+
+
+

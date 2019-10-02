@@ -18,11 +18,11 @@ get_header();
 ?>
 </div>
 
+
 <div class="navbar__mobile">
-<?php get_template_part('site_glyph'); ?> 
-<button class="navbar-toggler" id="overlay-toggle" type="button" onclick="openNav()" aria-controls="mobileNav" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'understrap'); ?>">
-<span class="navbar-toggler-icon"></span>
-</button>
+<?php get_template_part('mobileNavBar');
+?> 
+
 </div>
 
 <div class="wrapper" id="full-width-page-wrapper">
@@ -37,10 +37,10 @@ get_header();
 <article> 
     <section class="intro__container">
     <div class="intro__content">    
-    <h1>Website Design & Production</h1>
+    <h1>Web Development & Design</h1>
 <h2>Jamie Johnson</h2>
 <div class="text__contact">15512 W 79th Terrace, Lenexa, ks 66219<br>jamie@jamie-johnson.com | 913-586-8042</div>
-<p>Id quis do nostrud laboris exercitation laborum in consequat irure pariatur. Ad velit commodo ut commodo dolor elit officia ex cupidatat non magna.</p><p>Nostrud commodo proident aliqua laborum duis magna ullamco. Qui proident duis aliqua veniam ea.</p>
+<p>Will this copy update? Id quis do nostrud laboris exercitation laborum in consequat irure pariatur. Ad velit commodo ut commodo dolor elit officia ex cupidatat non magna.</p><p>Nostrud commodo proident aliqua laborum duis magna ullamco. Qui proident duis aliqua veniam ea.</p>
 
 <img src="/wp-content/uploads/2019/09/icon__skills-28.svg" class="style-svg icon__contact" alt="github" />
 <img src="/wp-content/uploads/2019/09/icon__skills-98.svg" class="style-svg icon__contact" alt="reddit"/>
@@ -57,7 +57,7 @@ get_header();
 <h4 class="project-name">jamie-johnson.com</h4>
 <div class="flex-container">
 <div class="flex-item project-image">
-<img src="/wp-content/uploads/2019/09/jjcomscreen.png" alt="jamie-johnson.com homepage" class="screengrab">
+<img src="/wp-content/uploads/2019/09/jjcomscreen.png" alt="jamie-johnson.com homepage" class="screengrab screengrab__jjcom">
 <div class="project-caption">personal branding site</div>
 </a>
 </div>
@@ -167,8 +167,8 @@ get_header();
 <h3>availability</h3>
 <h4>24/7</h4>
 <p>Okay maybe not 24/7 but this isn't a part time thing. I'm looking to bone up my digital chops and earn a little green until I can get my own thing up and running</p>
-<h4>I'm down for whatever: Contract. Freelance. Support.</h4>
-<p>Send me your cumbersome, tired and menial tasks to free you up for bigger and better things.</p>
+<h4>I'm down for anything</h4>
+<p>Contract. Freelance. Support. Whatever. Send me your cumbersome, tired and menial tasks to free you up for bigger and better things.</p>
 </section>
 
 
@@ -180,11 +180,11 @@ get_header();
 
 <h4>agency account services</h4>
 
-<p>Bernstein Rein, AdFarm, Nicholson Kovac, Geoff Howe, Mad Dogs & Englishmen, Osborn Barr (16 years)</p>
+<p>Bernstein Rein, AdFarm, Nicholson Kovac, Geoff Howe, Mad Dogs & Englishmen, Osborn Barr <br>(16 years)</p>
 
 <h4>marketing management</h4>
 
-<p>Black & Veatch, CreativeOne, Applebee’s (5 years)</p>
+<p>Black & Veatch, CreativeOne, Applebee’s International<br>(5 years)</p>
 </div>
 
 <div class="about">

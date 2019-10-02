@@ -89,3 +89,29 @@
     transform: skewY(-1.5deg);
     transform-origin: 100%;
 }
+
+
+
+/*=============================================
+=            misc          =
+=============================================*/
+
+.screengrab.screengrab__jjcom {
+    @include minimal-shadow();
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+    
+    }
+
+ // section container drop-shadows ( .section__availability & .section__projects disabled)   
+    .priors__background, .skills__background{
+        @include minimal-shadow();    
+    }
+
+    .intro__container{
+        @include dark-shadow();
+    }
+    
+    .skills__background::after{
+        @include dark-shadow();
+    }

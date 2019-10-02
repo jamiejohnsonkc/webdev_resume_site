@@ -1,0 +1,11 @@
+@mixin minimal-shadow {
+    -webkit-box-shadow: 12px 10px 19px -14px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 12px 10px 19px -14px rgba(0, 0, 0, 0.2);
+    box-shadow: 12px 10px 19px -14px rgba(0, 0, 0, 0.2);
+}
+
+@mixin dark-shadow {
+    -webkit-box-shadow: 12px 10px 19px -14px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 12px 10px 19px -14px rgba(0, 0, 0, 0.9);
+    box-shadow: 12px 10px 19px -14px rgba(0, 0, 0, 0.9);
+}

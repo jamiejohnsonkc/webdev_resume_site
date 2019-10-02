@@ -1,7 +1,34 @@
+p{
+    @include vr($width: 90%);
+}
+
+.navbar__mobile{
+    z-index: 100;
+}
+
+.overlay{
+    display: flex;
+    z-index: 500;
+}
+
+.intro__container, .section__projects, .skills__background, .section__availability{
+    @include vr($padding: 3 1, $margin-bottom: 3);
+}
+
+.priors__background{
+    @include vr($padding: 3 1);
+}
+
+.intro__container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .text__contact {
     @include vr($font-size: 1, $margin-bottom: 2, $line-height: 1.5);
-    color: $text-muted;
     text-transform: uppercase;
 }
 
@@ -29,7 +56,7 @@ h4.project-name {
 }
 
 .skills h4 {
-    @include vr($margin-top: 3);
+    @include vr($margin-top: 2);
 }
 
 .icon__skills {
@@ -37,15 +64,39 @@ h4.project-name {
     @include vr($margin-bottom: 1, $width: 3);
 }
 
+.about{
+    @include vr($margin-top:2);
+}
 
+.scroll-top{
+    z-index: 50;
+    position: absolute;
+    right: 6.18%;
+    bottom: 0.618%;
+    @include vr($height: 2.5, $width: 2.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.scrollup{
+    @include vr($width: 1);
+    margin-top: -1rem;
+}
+
+#full-width-page-wrapper{
+    position: relative;
+}
 
 @include mq('tablet-wide',
 $type:max) {
     #full-width-page-wrapper {
-        @include vr($padding-top: 5);
+        // @include vr($padding-top: 3);
     }
-    .site-main {
-        @include vr($padding-left: 1, $padding-right: 1);
+    .project-caption{
+        @include vr($margin-bottom: 2);
     }
+    // .site-main {
+    //     @include vr($padding-left: 1, $padding-right: 1);
+    // }
 }
