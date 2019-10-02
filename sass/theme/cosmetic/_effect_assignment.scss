@@ -9,7 +9,7 @@
 .skewed--top,
 .skewed--bottom {
     position: relative;
-    @include vr($padding: 3 0 3 3);
+    @include vr($padding: 3 0);
 }
 
 
@@ -47,9 +47,9 @@
 
 
 /* skewed left */
-
+//! top only
 .skewed__reverse--top {
-    @include vr($padding: 3 0 3 3);
+    @include vr($padding: 3 0);
     z-index: 1;
 }
 
@@ -68,10 +68,20 @@
     outline: 1px solid transparent;
 }
 
+//! top and bottom
+.skewed__reverse--both{
+    @include vr($padding: 4 0);
+    position: relative;
+    z-index: 1;
+}
 
 .skewed__reverse--both:before {
     top: 0;
+    transform: skewY(-1.5deg);
+    transform-origin: 0 100%;
 }
+
+
 .skewed__reverse--both:after,
 .skewed__reverse--both:before {
     background: inherit;
@@ -103,15 +113,31 @@
     
     }
 
- // section container drop-shadows ( .section__availability & .section__projects disabled)   
-    .priors__background, .skills__background{
+
+    
+    /*=============================================
+    =            dropshadows            =
+    =============================================*/
+ // section container drop-shadows ( .section-container--availability & .section-container--projects disabled)   
+    .section-container--skills{
         @include minimal-shadow();    
     }
 
-    .intro__container{
+    .section-container--intro, .section-container--priors:after{
         @include dark-shadow();
     }
     
-    .skills__background::after{
+    .section-container--skills:after{
         @include dark-shadow();
     }
+
+    .scroll-top{
+        // @include dark-shadow();
+    }
+
+.overlay{
+    // -webkit-box-shadow: 24px 19px 22px -13px rgba(0, 0, 0, .8);
+    // -moz-box-shadow: 24px 19px 22px -13px rgba(0, 0, 0, .8);
+    // box-shadow: 24px 19px 22px -13px rgba(0, 0, 0, .8);
+@include dark-shadow();
+}

@@ -53,7 +53,8 @@
     "run-sequence": "^2.2.1",
     "understrap": "^0.9.1",
     "undescores-for-npm": "^1.0.0",
-    "vertical-rhythm-reset": "^1.2.0"
+    "vertical-rhythm-reset": "^1.2.0",
+    "yarn": "^1.19.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",

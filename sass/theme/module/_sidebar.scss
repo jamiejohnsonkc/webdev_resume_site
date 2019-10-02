@@ -48,7 +48,7 @@
     min-height: 10rem;
     display: flex;
     align-self: center;
-    fill: $white;
+    // fill: $primary;
 }
 
 .sidebar__content-container {
@@ -106,7 +106,7 @@
         @include vr($font-size: 0);
     }
     @include mq('desktop'){
-        @include vr($font-size: 1);
+        @include vr($font-size: 0);
     }
 }
 
@@ -127,7 +127,7 @@
 //     min-height: 8rem;
 //     background: #949697;
 //     display: flex;
-//     flex: 1;
+//     flex: 1; 
 //     flex-direction: column;
 //     flex-wrap: wrap;
 //     justify-content: center;

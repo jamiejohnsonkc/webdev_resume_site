@@ -7048,7 +7048,7 @@
 
 /* Open when someone clicks on the span element */
 function openNav() {
-    document.getElementById("mobileNav").style.width = "83%";
+    document.getElementById("mobileNav").style.width = "90%";
 }
 
 /* Close when someone clicks on the "x" symbol inside the overlay */

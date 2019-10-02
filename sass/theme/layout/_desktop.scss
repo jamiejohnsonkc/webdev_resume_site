@@ -3,10 +3,10 @@
         width: 61%;
     }
     
-    .skills h4 {
+    .content--skills h4 {
         @include vr($margin-top: 3);
     }
-    .projects .flex-container {
+    .content--projects .flex-container {
         display: flex;
     }
     .project-image {
@@ -18,10 +18,16 @@
             width: 100%;
         }
     }
-    .intro__content,
-    .projects,
-    .priors,
-    .about {
+
+
+/*=============================================
+=            content width            =
+=============================================*/
+
+    .content--intro,
+    .content--projects,
+    .content--priors,
+    .content--about {
         max-width: 61%;
     }
 }

@@ -1,13 +1,20 @@
 /*=============================================
 =            section background colors           =
 =============================================*/
-.intro__container {
+.section-container--intro {
     background-image: linear-gradient(to right top, #f28d35, #f28029, #f2721e, #f26214, #f2500b, #ee4608, #e93b06, #e52e05, #db2c05, #d22a04, #c82804, #bf2604);
 }
-.skills__background {
+
+.text__contact span{
+    // background-image: linear-gradient(to right top, #bf2604, #c82804, #d22a04, #db2c05, #e52e05, #e93b06, #ee4608, #f2500b, #f26214, #f2721e, #f28029, #f28d35);
+background: $secondary;
+border-radius: 2rem;
+}
+
+.section-container--skills {
     background: $blaze;
 }
-.priors__background {
+.section-container--priors {
     background: $secondary;
 }
 
@@ -19,39 +26,53 @@
 /*=============================================
 =            overlay / mobile navbar            =
 =============================================*/
+
+
+/* mobile navbar */
+
 .navbar__mobile{ 
     // background: #9997a6;
     background: transparent;
 }
 
-.svg__site-glpyh{
+// .svg__site-glpyh{
+.svg__site-glyph{
     fill: $white;
-}
-
-.svg__site-glyph--reversed {
-    fill: $primary-100;
-}
-
-a.closebtn{
-    color: $primary-100;
 }
 
 .navbar-toggler-icon {} //color set in background-image property in layout.scss
 
+
+
+/* overlay */
+
+
+.svg__site-glyph--reversed {
+    fill: $primary-400;
+}
+
+a.closebtn{
+    color: $primary-400;
+}
+
+
 .overlay{
-   
+   background: $primary;
 }
 
 .overlay__content{
-    background: $white;
-}
-.overlay__footer{
-    background: $primary-200;
+    background: $primary;
 }
 
-.icon__sidebar-nav{
-    fill: $black;
-} 
+.overlay__content a{
+color: $white;
+}
+
+.overlay__footer{
+    background: $primary-100;
+}
+
+
 
 /*=============================================
 =            sidebar            =
@@ -66,6 +87,10 @@ a.closebtn{
     color: $white;
 }
 
+.icon__sidebar-nav{
+    fill: $black;
+} 
+
 
 
 /*=============================================
@@ -76,12 +101,13 @@ button:focus {
 }
 
 .scroll-top{
-    background: #000;
+    background: rgba(255,255,255,.5);
     border-radius: 100%;
+    // border: thin solid $primary;
 }
 
 .scrollup{
-fill: $white;
+fill: $gray-600;
 }
 
 
@@ -94,7 +120,7 @@ fill: $white;
 }
 
 .icon__overlay-nav{
-fill: $primary-100;
+fill: $primary-400;
 }
 
 .icon__sidebar-nav{
@@ -111,28 +137,28 @@ a {
     color: $secondary;
 }
 
-.projects{
+.content--projects{
         color: $primary-300;
 }
 
 
 /* section-specific */
 
-.intro__container{
+.section-container--intro{
     color: $white;
 }
 
-.skills{
+.content--skills{
     color: $white;
 }
 
-.section__availability{
+.section-container--availability{
 h3, h4{
 color: $accent;
 }
 }
 
-.priors__background{
+.section-container--priors{
     color: $white;
 }
 

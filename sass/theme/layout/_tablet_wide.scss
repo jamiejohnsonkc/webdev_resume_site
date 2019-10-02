@@ -1,6 +1,12 @@
 
 @include mq('tablet-wide') {
 
+
+/*=============================================
+=            page layout            =
+=============================================*/
+
+
     .site-main {
         display: flex;
         width: 100%;
@@ -12,39 +18,66 @@
         max-width: 50%;
         @include vr($margin-bottom: 2);
     }
+    
     article {
         position: relative;
         left: 23%;
         width: 77%;
         display: flex;
         flex-direction: column;
-        @include vr($padding-left: 0);
-    }
-    section {
-        @include vr($padding-left: 3);
-    }
-    .intro__container {
-        // height: 100vh;
-       
-    }
-    .intro__content {
-        flex: 0 1;
-    }
-    .intro__content,
-    .projects,
-    .priors,
-    .about {
-        max-width: 83%;
+        // @include vr($padding-left: 0);
     }
 
-  .about{
-        @include vr($margin-top: 3);
+
+
+    // section {
+    //     @include vr($padding-left: 3);
+    // }
+
+
+    .section-container--intro {
+        height: 100vh;
+       
     }
-    .section__projects, .section__availability {
-        @include vr($margin: 6 0 6 0);
+    .content--intro {
+        flex: 0 1;
     }
-    .priors__background {
-        @include vr($margin-top: 2);
-    }
+
+
+
+
+/*=============================================
+=            content width            =
+=============================================*/
+    // .content--intro,
+    // .content--projects,
+    // .content--priors,
+    // .content--about {
+    //     max-width: 83%;
+    // }
+
+
+    
+    /*=============================================
+    =            vertical spacing             =
+    =============================================*/
+     
+    
+    
+//   .content--about{
+//         @include vr($margin-top: 3);
+//     }
+//     .section-container--projects, .section-container--availability, .section-container--priors {
+//         @include vr($margin: 6 0 6 0);
+//     }
+
+//     .section-container--about{
+//         @include vr($margin-bottom: 6);
+//     }
+
+    
+//     .section-container--priors {
+//         @include vr($margin-top: 2);
+//     }
   
 }
