@@ -11,7 +11,7 @@ if (!defined('ABSPATH')) {
 
 <!-- Button to close the overlay navigation -->
 <div class="container">
-    <?php get_template_part('site_glyph--rev'); ?>
+    <?php get_template_part('site_glyph'); ?>
     <a href="javascript:void(0)"
        class="closebtn"
        onclick="closeNav()">&times;</a>

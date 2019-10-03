@@ -8212,7 +8212,7 @@ a:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: .5rem 4rem;
-  height: 6rem; }
+  height: 8rem; }
 
 .svg__site-glyph--reversed {
   display: -webkit-box;
@@ -8263,7 +8263,7 @@ a.closebtn {
 
 .overlay {
   height: 100%;
-  width: 0;
+  width: 0%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -8297,21 +8297,29 @@ a.closebtn {
       -ms-flex: 6;
           flex: 6; }
 
+.overlay__menu {
+  width: 40%; }
+
 .overlay__content a {
   max-width: 100%;
   width: 100%;
   padding: 8px;
   text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
   font-size: 1.5rem;
   line-height: 1.50001rem;
   margin-bottom: 1.50001rem;
   letter-spacing: .25rem;
-  font-weight: 100; }
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
   @media (min-width: 1em) {
     .overlay__content a {
       font-size: 1.5rem;
@@ -8347,36 +8355,12 @@ a.closebtn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1.50001rem;
-  margin-right: 1.50001rem; }
-  @media (min-width: 1em) {
-    .icon__overlay-nav {
-      width: 2.00001rem;
-      margin-right: 2.00001rem; } }
-  @media (min-width: 25em) {
-    .icon__overlay-nav {
-      width: 1.54546rem;
-      margin-right: 1.54546rem; } }
-  @media (min-width: 30em) {
-    .icon__overlay-nav {
-      width: 1.53847rem;
-      margin-right: 1.53847rem; } }
-  @media (min-width: 35em) {
-    .icon__overlay-nav {
-      width: 1.50001rem;
-      margin-right: 1.50001rem; } }
-  @media (min-width: 48em) {
-    .icon__overlay-nav {
-      width: 1.53334rem;
-      margin-right: 1.53334rem; } }
-  @media (min-width: 64em) {
-    .icon__overlay-nav {
-      width: 1.50001rem;
-      margin-right: 1.50001rem; } }
+  width: 1.5rem;
+  max-width: 1.5rem; }
 
 .nav-item__overlay {
-  width: 5rem;
-  max-width: 5rem;
+  width: 9rem;
+  max-width: 9rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8387,7 +8371,6 @@ a.closebtn {
 =============================================*/
 .overlay__footer {
   min-height: 10rem;
-  background: #949697;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8409,7 +8392,6 @@ a.closebtn {
   max-width: 100%; }
 
 .icon__contact--footer {
-  fill: #f1f1f1;
   width: 3.00002rem;
   margin-right: 1.50001rem; }
   @media (min-width: 1em) {
@@ -8439,7 +8421,8 @@ a.closebtn {
 
 .footer__text {
   text-transform: uppercase;
-  color: #f1f1f1; }
+  font-weight: 600;
+  letter-spacing: .25rem; }
 
 .footer__head {
   font-size: 2.25rem;
@@ -9468,26 +9451,29 @@ h4.project-name {
   background-image: linear-gradient(to right, #f23005, #e52e05, #d82b04, #cc2904, #bf2604); }
 
 .svg__site-glyph {
-  fill: #ffffff; }
+  fill: #F23005; }
+  @media only screen and (min-width: 64em) {
+    .svg__site-glyph {
+      fill: #ffffff; } }
 
 /* overlay */
 .svg__site-glyph--reversed {
   fill: #b55b0c; }
 
 a.closebtn {
-  color: #b55b0c; }
+  color: #F23005; }
 
 .overlay {
-  background: #F28D35; }
+  background: #000; }
 
 .overlay__content {
-  background: #F28D35; }
+  background: #000; }
 
 .overlay__content a {
-  color: #ffffff; }
+  color: #F23005; }
 
 .overlay__footer {
-  background: black; }
+  background: #000; }
 
 /*=============================================
 =            sidebar            =
@@ -9523,10 +9509,13 @@ button:focus {
   fill: #ffffff; }
 
 .icon__overlay-nav {
-  fill: #b55b0c; }
+  fill: #F23005; }
 
 .icon__sidebar-nav {
-  fill: #ffffff; }
+  fill: #F23005; }
+
+.icon__contact--footer {
+  fill: #F23005; }
 
 /*=============================================
 =            text            =
@@ -9550,39 +9539,67 @@ a {
 .section-container--priors {
   color: #ffffff; }
 
+.content--about h3, .content--about h4 {
+  color: #F23005; }
+
+.footer__text {
+  color: #F23005; }
+
 /*=============================================
 =            footer            =
 =============================================*/
 #wrapper-footer {
+  border-top: thin solid #9997A6;
   background: transparent;
-  color: #fdfdfd;
-  font-size: 1rem;
-  line-height: 1.50001rem;
-  font-weight: 100; }
+  color: #ffffff;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1.50001rem 3.00002rem 0.375rem;
+  background: #9997A6; }
   @media (min-width: 1em) {
     #wrapper-footer {
-      font-size: 1rem;
-      line-height: 2.00001rem; } }
+      padding: 2.00001rem 4.00002rem 0.5rem; } }
   @media (min-width: 25em) {
     #wrapper-footer {
-      font-size: 1rem;
-      line-height: 1.54546rem; } }
+      padding: 1.54546rem 3.09093rem 0.38637rem; } }
   @media (min-width: 30em) {
     #wrapper-footer {
-      font-size: 1rem;
-      line-height: 1.53847rem; } }
+      padding: 1.53847rem 3.07694rem 0.38462rem; } }
   @media (min-width: 35em) {
     #wrapper-footer {
-      font-size: 1rem;
-      line-height: 1.50001rem; } }
+      padding: 1.50001rem 3.00002rem 0.375rem; } }
   @media (min-width: 48em) {
     #wrapper-footer {
-      font-size: 1rem;
-      line-height: 1.53334rem; } }
+      padding: 1.53334rem 3.06669rem 0.38334rem; } }
   @media (min-width: 64em) {
     #wrapper-footer {
-      font-size: 1rem;
-      line-height: 1.50001rem; } }
+      padding: 1.50001rem 3.00002rem 0.375rem; } }
+
+.footer-content__container a {
+  color: #ffffff; }
+
+.footer-content__container {
+  width: 100%;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 10rem; }
+
+.footer-content__container a {
+  width: 100%;
+  max-width: 100%;
+  min-height: 1rem; }
+
+.site-footer {
+  background: #9997A6;
+  min-height: 2rem; }
 
 /*=============================================
 =            section background shapes           =

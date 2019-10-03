@@ -15,7 +15,7 @@
     align-items: center;
     justify-content: space-between;
     padding: .5rem 4rem;
-    height: 6rem;
+    height: 8rem;
 }
 
 .svg__site-glyph--reversed {
@@ -45,7 +45,7 @@ a.closebtn {
 
 .overlay {
     height: 100%;
-    width: 0; //!return to zero when finished with styling
+    width: 0%; //!return to zero when finished with styling
     position: fixed;
     z-index: 1;
     top: 0;
@@ -70,18 +70,22 @@ a.closebtn {
     flex: 6;
 }
 
-.overlay__menu {}
+.overlay__menu {
+    width: 40%;
+}
 
 .overlay__content a {
     max-width: 100%;
     width: 100%;
     padding: 8px;
     text-decoration: none;
-    display: flex;
-    transition: 0.3s;
     @include vr($font-size: 1, $margin-bottom: 1);
     letter-spacing: .25rem;
-    font-weight: 100;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
     // justify-content: space-evenly;
 }
 
@@ -90,12 +94,13 @@ a.closebtn {
 // }
 .icon__overlay-nav {
     display: flex;
-    @include vr($width: 1, $margin-right: 1);
+    width: 1.5rem;
+    max-width: 1.5rem;
 }
 
 .nav-item__overlay {
-    width: 5rem;
-    max-width: 5rem;
+    width: 9rem;
+    max-width: 9rem;
     display: flex;
     text-transform: uppercase;
 }
@@ -113,7 +118,6 @@ a.closebtn {
 
 .overlay__footer {
     min-height: 10rem;
-    background: #949697;
     display: flex;
     flex: 2;
     flex-direction: column;
@@ -130,13 +134,13 @@ a.closebtn {
 }
 
 .icon__contact--footer {
-    fill: #f1f1f1;
     @include vr($width: 2, $margin-right: 1);
 }
 
 .footer__text {
     text-transform: uppercase;
-    color: #f1f1f1;
+    font-weight: 600;
+    letter-spacing: .25rem;
 }
 
 .footer__head {

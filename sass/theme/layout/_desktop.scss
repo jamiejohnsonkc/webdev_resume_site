@@ -1,10 +1,10 @@
 @include mq('desktop') {
 
-    
+
     /*=============================================
     =            page layout            =
     =============================================*/
-    .section-container{
+    .section-container {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -25,32 +25,32 @@
     p {
         width: 61%;
     }
-    
 
-    
+
+
     /*=============================================
     =            tweaks            =
     =============================================*/
-    
-    
-    
-    
 
 
-    .content--availability{
+
+
+
+
+    .content--availability {
         @include vr($padding: 6 0);
     }
 
     .content--skills h4 {
         @include vr($margin-top: 3);
     }
-    
-    
+
+
     .content--projects .flex-container {
         display: flex;
     }
 
-    .content--projects{
+    .content--projects {
         max-width: 83%;
     }
 
@@ -58,8 +58,10 @@
     .project-visual {
         flex: 1.25;
     }
+
     .project-description {
         flex: 1;
+
         p {
             width: 83%;
             @include vr($padding-left: 2);
@@ -67,13 +69,13 @@
     }
 
 
-    #wrapper-footer{
-        .container{
+    #wrapper-footer {
+        .container {
             max-width: 100%;
         }
     }
 
-    .svg__site-glyph{
+    .svg__site-glyph {
         max-width: 38.2%;
         margin-left: 6%;
         margin-right: 6%;
@@ -81,11 +83,11 @@
     }
 
 
-    .sidebar__content-container a{
+    .sidebar__content-container a {
         @include vr($margin-bottom: 2);
     }
 
-    .nav-item__sidebar{
+    .nav-item__sidebar {
         @include vr($font-size: 1);
     }
 

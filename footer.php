@@ -15,33 +15,30 @@ $container = get_theme_mod('understrap_container_type');
 
 <div class="wrapper" id="wrapper-footer">
 
-	<div class="<?php echo esc_attr($container); ?>">
 
-		<div class="row">
+<div class="footer-content__container">
+	<a href="tel:+1 913-207-6966">call</a>
+	<a href="mailto:jamie@jamie-johnson.me">email</a>
+	<a href="/wp-content/uploads/2019/10/Jamie-Johnson-Frontend-Development.pdf">resume.pdf</a>
 
-			<div class="col-md-12">
+</div>
+			
 
 				<footer class="site-footer" id="colophon">
 
-					<div class="site-info">
-
-					&copy;2019 jamie johnson
-
-					</div><!-- .site-info -->
+					<!-- .site-info -->	<div class="site-info">&copy;2019 jamie johnson</div>
 
 				</footer><!-- #colophon -->
 
-			</div><!--col end -->
+		
 
-		</div><!-- row end -->
+		
 
-	</div><!-- container end -->
+
 
 </div><!-- wrapper end -->
 
 </div><!-- #page we need this extra closing tag here -->
-
-<?php wp_footer(); ?>
 
 </body>
 

@@ -44,7 +44,10 @@ border-radius: .5rem;
 
 // .svg__site-glpyh{
 .svg__site-glyph{
+    fill: $secondary;
+@include mq('tablet-wide'){
     fill: $white;
+}
 }
 
 .navbar-toggler-icon {} //color set in background-image property in layout.scss
@@ -59,24 +62,24 @@ border-radius: .5rem;
 }
 
 a.closebtn{
-    color: $primary-400;
+    color: $secondary;
 }
 
 
 .overlay{
-   background: $primary;
+   background: $black;
 }
 
 .overlay__content{
-    background: $primary;
+    background: $black;
 }
 
 .overlay__content a{
-color: $white;
+color: $secondary;
 }
 
 .overlay__footer{
-    background: $primary-100;
+    background: $black;
 }
 
 
@@ -141,13 +144,16 @@ fill: $gray-600;
 }
 
 .icon__overlay-nav{
-fill: $primary-400;
+fill: $secondary;
 }
 
 .icon__sidebar-nav{
-    fill: $white;
+    fill: $secondary;
 }
 
+.icon__contact--footer{
+    fill: $secondary;
+}
 
 
 /*=============================================
@@ -184,16 +190,63 @@ color: $secondary;
     color: $white;
 }
 
+.content--about{
+    h3, h4{
+color: $secondary;
+    }
+}
+
+.footer__text{
+    color: $secondary;
+}
+
 
 
 /*=============================================
 =            footer            =
 =============================================*/
 #wrapper-footer{
+    border-top: thin solid $neutral;
     background: transparent;
-    color: $off-white;
-    @include vr($font-size: 0);
-    font-weight: 100;
+    color: $white;
+    width: 100%;
+    justify-content: flex-end;
+    flex-direction: column;
+    @include vr($padding: 1 2 .25 2);
+    background: $neutral;
+
+}
+
+.footer-content__container{
+    & a{
+        color: $white;
+    }
+}
+
+.footer-content__container{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    min-height: 10rem;
+    //!stacked
+
+ 
+    // flex-direction: row;
+    // flex-wrap: wrap;
+
+
+}
+
+.footer-content__container a{
+    width: 100%;
+    max-width: 100%;
+    min-height: 1rem;
+
+}
+
+.site-footer{
+ background: $neutral;
+    min-height: 2rem;
 }
 
 
