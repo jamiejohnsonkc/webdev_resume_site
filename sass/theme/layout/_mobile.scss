@@ -23,14 +23,14 @@ p{
     position: relative;
 }
 
+//? should this be it's own sheet?
+
 @include mq('tablet-wide',
 $type:max) {
     #full-width-page-wrapper {
         // @include vr($padding-top: 3);
     }
-    .project-caption{
-        @include vr($margin-bottom: 2);
-    }
+
     // .site-main {
     //     @include vr($padding-left: 1, $padding-right: 1);
     // }
@@ -40,8 +40,6 @@ $type:max) {
         align-items: center;
         text-align: center;
     }
-
-
 }
 
 
@@ -56,8 +54,10 @@ $type:max) {
     @include vr($padding: 3 0);
 }
 
-.section-container--priors{
-    @include vr($padding: 3 0);
+.section-container--priors, .section-container--availability, .section-container--about{
+    p{
+        @include vr($margin-bottom: 2);
+}
 }
 
 .section-container--intro{
@@ -76,8 +76,8 @@ $type:max) {
 }
 
 .text__contact span{
-    @include vr($padding: .25 .75);
-    margin-left: -1.5rem;
+   padding: .25rem .75rem;
+   margin-left: -.75rem;
 }
 
 
@@ -91,12 +91,13 @@ h4.project-name {
 }
 
 .screengrab {
-    width: 83%;
-    @include vr($margin-bottom: 1);
+    width: 100%;
+    // @include vr($margin-bottom: 1);
+
 }
 
-.project-caption {
-    @include vr($font-size: 0);
+.project-caption{
+    @include vr($margin: .5 0 2 0, );
 }
 
 .content--skills {

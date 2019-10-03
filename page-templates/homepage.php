@@ -64,14 +64,16 @@ get_header();
                     <h3>projects</h3>
 
                     <a href="https://jamie-johnson.com">
-                        <h4 class="project-name">jamie-johnson.com <br>
-                            <span>personal branding site</span></h4>
+                        <h4 class="project-name">personal branding site<br>
+                            <span class="project-subhead">http://jamie-johnson.com</span></h4>
                     </a>
                     <div class="flex-container">
-                        <div class="flex-item project-image">
-                            <img src="/wp-content/uploads/2019/09/jjcomscreen.png"
-                                 alt="jamie-johnson.com homepage"
-                                 class="screengrab screengrab__jjcom">
+                        <div class="flex-item project-visual">
+                            <div class="project-image">
+                                <img src="/wp-content/uploads/2019/09/jjcomscreen-e1570120189261.png"
+                                     alt="jamie-johnson.com homepage"
+                                     class="screengrab screengrab__jjcom">
+                            </div>
                             <div class="project-caption"><a
                                    href="https://github.com/jamiejohnsonkc/jamie-johnson.com">github repo</a>
                             </div>
@@ -280,6 +282,7 @@ get_header();
                     <p>Contract. Freelance. Support. Whatever. Send me your cumbersome, tired and menial tasks to free
                         you up for bigger
                         and better things.</p>
+                </div>
             </section>
 
             <section class="section-container section-container--priors skewed skewed__reverse--both">

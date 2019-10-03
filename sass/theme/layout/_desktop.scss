@@ -1,33 +1,92 @@
 @include mq('desktop') {
+
+    
+    /*=============================================
+    =            page layout            =
+    =============================================*/
+    .section-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include vr($padding: 10 0);
+    }
+
+    .content--intro,
+    .content--skills,
+    .content--availability,
+    .content--priors,
+    .content--about {
+        max-width: 50%;
+        width: 50%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     p {
         width: 61%;
     }
     
+
+    
+    /*=============================================
+    =            tweaks            =
+    =============================================*/
+    
+    
+    
+    
+
+
+    .content--availability{
+        @include vr($padding: 6 0);
+    }
+
     .content--skills h4 {
         @include vr($margin-top: 3);
     }
+    
+    
     .content--projects .flex-container {
         display: flex;
     }
-    .project-image {
-        flex: 2;
+
+    .content--projects{
+        max-width: 83%;
+    }
+
+
+    .project-visual {
+        flex: 1.25;
     }
     .project-description {
         flex: 1;
         p {
-            width: 100%;
+            width: 83%;
+            @include vr($padding-left: 2);
         }
     }
 
 
-/*=============================================
-=            content width            =
-=============================================*/
-
-    .content--intro,
-    .content--projects,
-    .content--priors,
-    .content--about {
-        max-width: 61%;
+    #wrapper-footer{
+        .container{
+            max-width: 100%;
+        }
     }
+
+    .svg__site-glyph{
+        max-width: 38.2%;
+        margin-left: 6%;
+        margin-right: 6%;
+        @include vr($margin-bottom: 4);
+    }
+
+
+    .sidebar__content-container a{
+        @include vr($margin-bottom: 2);
+    }
+
+    .nav-item__sidebar{
+        @include vr($font-size: 1);
+    }
+
 }
