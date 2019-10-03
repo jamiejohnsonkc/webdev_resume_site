@@ -1,0 +1,24 @@
+
+
+
+// main element
+// set position in layout scss
+
+.scroll-top{
+border-radius: 100%;
+z-index: 50;
+position: fixed;
+@include vr($height: 2, $width: 2);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.scroll-top a{
+display: flex;
+}
+
+//svg 
+.scrollup {
+    width: 16px;
+}

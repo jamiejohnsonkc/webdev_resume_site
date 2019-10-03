@@ -144,19 +144,9 @@ h4.project-name {
 
 /* scroll to top */
 .scroll-top{
-    z-index: 50;
-    position: fixed;
     right: 6.18%;
     bottom: 6.18%;
-    @include vr($height: 2, $width: 2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.scrollup{
-    @include vr($width: .75);
-    margin-top: -1rem;
-}
 
 

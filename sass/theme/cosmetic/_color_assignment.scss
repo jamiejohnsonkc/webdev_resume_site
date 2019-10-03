@@ -7,12 +7,12 @@
 
 .text__contact span{
     // background-image: linear-gradient(to right top, #bf2604, #c82804, #d22a04, #db2c05, #e52e05, #e93b06, #ee4608, #f2500b, #f26214, #f2721e, #f28029, #f28d35);
-background: $secondary;
+background: $primary;
 border-radius: 2rem;
 }
 
 .section-container--skills {
-    background: $blaze;
+    background: $primary;
 }
 .section-container--priors {
     background: $secondary;
@@ -31,8 +31,7 @@ border-radius: 2rem;
 /* mobile navbar */
 
 .navbar__mobile{ 
-    // background: #9997a6;
-    background: transparent;
+    background-image: linear-gradient(to right, #f23005, #e52e05, #d82b04, #cc2904, #bf2604);
 }
 
 // .svg__site-glpyh{
@@ -102,7 +101,6 @@ button:focus {
 
 .scroll-top{
     background: rgba(255,255,255,.5);
-    border-radius: 100%;
     // border: thin solid $primary;
 }
 
@@ -126,6 +124,7 @@ fill: $primary-400;
 .icon__sidebar-nav{
     fill: $white;
 }
+
 
 
 /*=============================================

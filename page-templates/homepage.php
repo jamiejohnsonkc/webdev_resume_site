@@ -38,7 +38,7 @@ get_header();
                     <h1>Web Development & Design</h1>
                     <h2>Jamie Johnson</h2>
                     <div class="text__contact">15512 W 79th Terrace, Lenexa, ks 66219<br><span>jamie@jamie-johnson.com |
-                        913-586-8042</span></div>
+                            913-586-8042</span></div>
                     <p>Will this copy update? Id quis do nostrud laboris exercitation laborum in consequat irure
                         pariatur. Ad velit commodo ut commodo dolor elit officia ex cupidatat non magna.</p>
                     <p>Nostrud commodo proident aliqua laborum duis magna ullamco. Qui proident duis aliqua veniam ea.
@@ -65,7 +65,7 @@ get_header();
 
                     <a href="https://jamie-johnson.com">
                         <h4 class="project-name">jamie-johnson.com <br>
-                        <span>personal branding site</span></h4>
+                            <span>personal branding site</span></h4>
                     </a>
                     <div class="flex-container">
                         <div class="flex-item project-image">
@@ -75,16 +75,16 @@ get_header();
                             <div class="project-caption"><a
                                    href="https://github.com/jamiejohnsonkc/jamie-johnson.com">github repo</a>
                             </div>
-</div>
-                            <div class="flex-item project-description">
-                                <p>Designed and developed responsive WordPress site with customized theme.</p>
-                                <p>PageSpeed 92%, YSlow 86%, full load 2.3s, page size 1.08MB, !important declarations
-                                    0.</p>
-                                <p>Underway: refactoring. Future: modular reconfiguration.</p>
-                            </div>
-                        
+                        </div>
+                        <div class="flex-item project-description">
+                            <p>Designed and developed responsive WordPress site with customized theme.</p>
+                            <p>PageSpeed 92%, YSlow 86%, full load 2.3s, page size 1.08MB, !important declarations
+                                0.</p>
+                            <p>Underway: refactoring. Future: modular reconfiguration.</p>
+                        </div>
+
                     </div>
-</div>
+                </div>
             </section>
 
             <section class="section-container section-container--skills skewed skewed--top skewed--bottom">
@@ -272,7 +272,8 @@ get_header();
                 <div class="content content--availability">
                     <h3>availability</h3>
                     <h4>24/7</h4>
-                    <p>Okay maybe not 24/7 but this isn't a part time thing. I'm looking to bone up on my digital chops and
+                    <p>Okay maybe not 24/7 but this isn't a part time thing. I'm looking to bone up on my digital chops
+                        and
                         earn a little
                         green until I can get my own thing up and running</p>
                     <h4>I'm down for anything</h4>

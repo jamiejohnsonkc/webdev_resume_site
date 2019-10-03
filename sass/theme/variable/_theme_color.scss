@@ -89,33 +89,36 @@ $colors);
 //! =           theme color assignments        =
 //!============================================*/
 
-// 
-$primary                             : #9997A6;
-$secondary                           : #F23005;
-$accent                              : #BF2604;
-$blaze                               : #d81e58;
+
+$text                                  : #9997A6; 
+$primary                               : #F23005;
+$secondary                             : #BF2604;
+$tertiary                              : #F28D35;
+$accent                                : #F29B88;
+$blaze                                 : #d81e58;
+
 
 
 /* Color Theme Swatches in Hex */
-.theme1-hex { color: #9997A6; }
-.theme2-hex { color: #F28D35; }
-.theme3-hex { color: #F23005; }
-.theme4-hex { color: #BF2604; }
-.theme5-hex { color: #F29B88; }
+// .theme1-hex { color: #9997A6; }
+// .theme2-hex { color: #F28D35; }
+// .theme3-hex { color: #F23005; }
+// .theme4-hex { color: #BF2604; }
+// .theme5-hex { color: #F29B88; }
 
 /* Color Theme Swatches in RGBA */
-.theme1-rgba { color: rgba(152, 150, 165, 1); }
-.theme2-rgba { color: rgba(242, 141, 53, 1); }
-.theme3-rgba { color: rgba(242, 48, 4, 1); }
-.theme4-rgba { color: rgba(191, 38, 3, 1); }
-.theme5-rgba { color: rgba(242, 155, 135, 1); }
+// .theme1-rgba { color: rgba(152, 150, 165, 1); }
+// .theme2-rgba { color: rgba(242, 141, 53, 1); }
+// .theme3-rgba { color: rgba(242, 48, 4, 1); }
+// .theme4-rgba { color: rgba(191, 38, 3, 1); }
+// .theme5-rgba { color: rgba(242, 155, 135, 1); }
 
 /* Color Theme Swatches in HSLA */
-.theme1-hsla { color: hsla(247, 7, 62, 1); }
-.theme2-hsla { color: hsla(28, 88, 57, 1); }
-.theme3-hsla { color: hsla(11, 96, 48, 1); }
-.theme4-hsla { color: hsla(11, 96, 38, 1); }
-.theme5-hsla { color: hsla(11, 80, 74, 1); }
+// .theme1-hsla { color: hsla(247, 7, 62, 1); }
+// .theme2-hsla { color: hsla(28, 88, 57, 1); }
+// .theme3-hsla { color: hsla(11, 96, 48, 1); }
+// .theme4-hsla { color: hsla(11, 96, 38, 1); }
+// .theme5-hsla { color: hsla(11, 80, 74, 1); }
 
 
 // primary tints
@@ -155,18 +158,18 @@ $dark                                 : $black;
 
 
 //theme color map
-$theme-colors : () !default;
-$theme-colors : map-merge((
-    "primary"                         : $primary,
-    "secondary"                       : $secondary,
-    "accent"                          : $accent,
-    "success"                         : $success,
-    "info"                            : $info,
-    "warning"                         : $warning,
-    "danger"                          : $danger,
-    "light"                           : $light,
-    "dark"                            : $dark),
-$theme-colors);       
+// $theme-colors : () !default;
+// $theme-colors : map-merge((
+//     "primary"                         : $primary,
+//     "secondary"                       : $secondary,
+//     "accent"                          : $accent,
+//     "success"                         : $success,
+//     "info"                            : $info,
+//     "warning"                         : $warning,
+//     "danger"                          : $danger,
+//     "light"                           : $light,
+//     "dark"                            : $dark),
+// $theme-colors);       
 
 
 //*=============================================
