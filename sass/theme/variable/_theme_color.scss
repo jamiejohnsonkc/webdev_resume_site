@@ -157,19 +157,19 @@ $dark                                 : $black;
 
 
 
-//theme color map
-// $theme-colors : () !default;
-// $theme-colors : map-merge((
-//     "primary"                         : $primary,
-//     "secondary"                       : $secondary,
-//     "accent"                          : $accent,
-//     "success"                         : $success,
-//     "info"                            : $info,
-//     "warning"                         : $warning,
-//     "danger"                          : $danger,
-//     "light"                           : $light,
-//     "dark"                            : $dark),
-// $theme-colors);       
+theme color map
+$theme-colors : () !default;
+$theme-colors : map-merge((
+    "primary"                         : $primary,
+    "secondary"                       : $secondary,
+    "accent"                          : $accent,
+    "success"                         : $success,
+    "info"                            : $info,
+    "warning"                         : $warning,
+    "danger"                          : $danger,
+    "light"                           : $light,
+    "dark"                            : $dark),
+$theme-colors);       
 
 
 //*=============================================

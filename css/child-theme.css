@@ -10107,14 +10107,14 @@ h4.project-name {
   background-image: linear-gradient(to right top, #f28d35, #f28029, #f2721e, #f26214, #f2500b, #ee4608, #e93b06, #e52e05, #db2c05, #d22a04, #c82804, #bf2604); }
 
 .text__contact span {
-  background: #F23005;
-  border-radius: 2rem; }
+  background: #BF2604;
+  border-radius: .5rem; }
 
 .section-container--skills {
-  background: #F23005; }
+  background: #BF2604; }
 
 .section-container--priors {
-  background: #BF2604; }
+  background: #F28D35; }
 
 .footer {
   background: #9997a6; }
@@ -10208,7 +10208,7 @@ a {
   color: #ffffff; }
 
 .section-container--availability h3, .section-container--availability h4 {
-  color: #F29B88; }
+  color: #BF2604; }
 
 .section-container--priors {
   color: #ffffff; }

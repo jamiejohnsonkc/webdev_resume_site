@@ -7,15 +7,15 @@
 
 .text__contact span{
     // background-image: linear-gradient(to right top, #bf2604, #c82804, #d22a04, #db2c05, #e52e05, #e93b06, #ee4608, #f2500b, #f26214, #f2721e, #f28029, #f28d35);
-background: $primary;
-border-radius: 2rem;
+background: $secondary;
+border-radius: .5rem;
 }
 
 .section-container--skills {
-    background: $primary;
+    background: $secondary;
 }
 .section-container--priors {
-    background: $secondary;
+    background: $tertiary;
 }
 
 .footer{
@@ -159,7 +159,7 @@ a {
 
 .section-container--availability{
 h3, h4{
-color: $accent;
+color: $secondary;
 }
 }
 
