@@ -226,3 +226,7 @@ src/sass/understrap/theme/_theme.scss
 src/sass/understrap/theme/_theme_variables.scss
 src/sass/understrap/understrap/understrap.scss
 src/sass/understrap/understrap/woocommerce.scss
+css/child-theme.css
+css/child-theme.css.map
+css/child-theme.min.css
+css/child-theme.min.css.map
