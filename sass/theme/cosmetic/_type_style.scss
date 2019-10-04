@@ -3,3 +3,8 @@
     font-weight: normal;
     font-style: italic;
 }
+
+.project-caption a {
+    @include vr($font-size: 0);
+    font-style: italic;
+}

@@ -7,7 +7,7 @@
 
 .text__contact span{
     // background-image: linear-gradient(to right top, #bf2604, #c82804, #d22a04, #db2c05, #e52e05, #e93b06, #ee4608, #f2500b, #f26214, #f2721e, #f28029, #f28d35);
-background: $secondary;
+background: $primary;
 border-radius: .5rem;
 }
 
@@ -15,7 +15,7 @@ border-radius: .5rem;
     background: $secondary;
 }
 .section-container--priors {
-    background: $tertiary;
+    background: $primary;
 }
 
 .footer{
@@ -126,6 +126,9 @@ fill: $secondary;
 
 .icon__sidebar-nav{
     fill: $secondary;
+@include mq('tablet-wide'){
+    fill: $white;
+}
 }
 
 .icon__contact--footer{
@@ -142,8 +145,8 @@ a {
     color: $secondary;
 }
 
-.content--projects{
-        color: $primary-300;
+.content--projects, .content--projects a{
+        color: $off-black;
 }
 
 
@@ -228,3 +231,10 @@ color: $secondary;
 
 
 
+/*=============================================
+=            graphics            =
+=============================================*/
+
+.project-visual {
+background: $primary;
+}

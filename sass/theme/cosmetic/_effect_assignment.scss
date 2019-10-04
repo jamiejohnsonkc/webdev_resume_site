@@ -9,7 +9,6 @@
 .skewed--top,
 .skewed--bottom {
     position: relative;
-    @include vr($padding: 3 0);
 }
 
 
@@ -49,7 +48,6 @@
 /* skewed left */
 //! top only
 .skewed__reverse--top {
-    @include vr($padding: 3 0);
     z-index: 1;
 }
 
@@ -70,7 +68,6 @@
 
 //! top and bottom
 .skewed__reverse--both{
-    @include vr($padding: 4 0);
     position: relative;
     z-index: 1;
 }
@@ -113,6 +110,21 @@
     
     }
 
+    .screengrab {
+        mix-blend-mode: screen;
+        // filter: grayscale(1);
+    }
+    
+    .project-image {
+        background: $tertiary;
+        transition: .5s;
+    }
+    
+    .project-image:hover {
+        background: transparent;
+    }
+
+
 
     
     /*=============================================
@@ -120,7 +132,7 @@
     =============================================*/
  // section container drop-shadows ( .section-container--availability & .section-container--projects disabled)   
     .section-container--skills{
-        @include minimal-shadow();    
+        // @include minimal-shadow();    
     }
 
     .section-container--intro, .section-container--priors:after{

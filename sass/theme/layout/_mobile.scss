@@ -52,14 +52,15 @@ $type:max) {
     @include vr($padding: 6 0);
 }
 
-.section-container--skills, .section-container--priors{
-    @include vr($padding: 3 0);
-}
+// .section-container--skills, .section-container--priors{
+//     @include vr($padding: 3 0);
+// }
 
-.section-container--priors{
-    @include vr($padding: 3 0);
+.section-container--priors, .section-container--availability, .section-container--about{
+    p{
+        @include vr($margin-bottom: 2);
 }
-
+}
 .section-container--intro{
     height: 100vh;
     width: 100%;
@@ -76,8 +77,8 @@ $type:max) {
 }
 
 .text__contact span{
-    @include vr($padding: .25 .75);
-    margin-left: -1.5rem;
+    padding: .25rem .75rem;
+    margin-left: -.75rem;
 }
 
 
@@ -91,11 +92,11 @@ h4.project-name {
 }
 
 .screengrab {
-    width: 83%;
-    @include vr($margin-bottom: 1);
+    width: 100%
 }
 
 .project-caption {
+    @include vr($margin: .5 0 2 0, );
     @include vr($font-size: 0);
 }
 

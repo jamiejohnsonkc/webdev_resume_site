@@ -44,7 +44,15 @@
     }
 
 
+    p{
+        width: 83%;
+    }
 
+@media screen and (max-width: 78em) and (min-width: 64em) {
+.content{
+    @include vr($padding: 0 4);
+}
+}
 
 /*=============================================
 =            content width            =

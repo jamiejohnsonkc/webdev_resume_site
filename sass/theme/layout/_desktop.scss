@@ -13,6 +13,8 @@
         @include vr($padding: 10 0);
     }
 
+
+
     .content--intro,
     .content--skills,
     .content--availability,
@@ -25,7 +27,7 @@
     }
 
     p {
-        width: 61%;
+        width: 83%;
     }
 
 
@@ -48,58 +50,38 @@
     }
 
 
+
+
     .content--projects .flex-container {
         display: flex;
     }
+
+.project-visual__container{
+    flex: 1.25;
+}
+
+    .project-visual {
+        flex: 1.25;
+    }
+
+
+    .project-description {
+        flex: 1;
+
+        p {
+            width: 83%;
+            @include vr($padding-left: 2);
+        }
+    }
+
 
     .content--projects {
         max-width: 83%;
     }
 
 
-    .project-visual {
-        flex: 1.25;
 
-    p {
-        width: 61%;
-    }
     
-    .content--skills h4 {
-        @include vr($margin-top: 3);
-    }
-    .content--projects .flex-container {
-        display: flex;
-    }
-    .project-image {
-        flex: 2;
-
-
-    p {
-        width: 61%;
-    }
-    
-    .content--skills h4 {
-        @include vr($margin-top: 3);
-    }
-    .content--projects .flex-container {
-        display: flex;
-    }
-    .project-image {
-        flex: 2;
-
-    }
-
-    .project-description {
-        flex: 1;
-
-        p {
-
-
-            width: 83%;
-            @include vr($padding-left: 2);
-        }
-    }
-
 
     #wrapper-footer {
         .container {
@@ -129,19 +111,8 @@
         @include vr($font-size: 1);
     }
 
-}
 
     .content--intro,
-    .content--projects,
-    .content--priors,
-    .content--about {
-        max-width: 61%;
-    }
-}
-
-
-    .content--intro,
-    .content--projects,
     .content--priors,
     .content--about {
         max-width: 61%;
