@@ -1,5 +1,6 @@
 @include mq('desktop') {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
     /*=============================================
@@ -72,12 +73,27 @@
     .project-image {
         flex: 2;
 >>>>>>> parent of 84f40b7... colors & large formats complete
+=======
+    p {
+        width: 61%;
+    }
+    
+    .content--skills h4 {
+        @include vr($margin-top: 3);
+    }
+    .content--projects .flex-container {
+        display: flex;
+    }
+    .project-image {
+        flex: 2;
+>>>>>>> parent of 84f40b7... colors & large formats complete
     }
 
     .project-description {
         flex: 1;
 
         p {
+<<<<<<< HEAD
 <<<<<<< HEAD
             width: 83%;
             @include vr($padding-left: 2);
@@ -103,11 +119,18 @@
     }
 
 >>>>>>> parent of 84f40b7... colors & large formats complete
+=======
+            width: 100%;
+        }
+    }
+
+>>>>>>> parent of 84f40b7... colors & large formats complete
 
 /*=============================================
 =            content width            =
 =============================================*/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     .sidebar__content-container a {
         @include vr($margin-bottom: 2);
@@ -118,6 +141,15 @@
     }
 
 }
+=======
+    .content--intro,
+    .content--projects,
+    .content--priors,
+    .content--about {
+        max-width: 61%;
+    }
+}
+>>>>>>> parent of 84f40b7... colors & large formats complete
 =======
     .content--intro,
     .content--projects,
