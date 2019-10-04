@@ -1,3 +1,4 @@
+
 /*=============================================
 =            section background shapes           =
 =============================================*/
@@ -5,7 +6,6 @@
 .skewed {
     position: relative;
 }
-
 .skewed--top,
 .skewed--bottom {
     position: relative;
@@ -30,7 +30,6 @@
     z-index: -1;
     outline: 1px solid transparent;
 }
-
 .skewed--bottom:after {
     bottom: 0;
     background: inherit;
@@ -54,7 +53,7 @@
     z-index: 1;
 }
 
-.skewed__reverse--top:before {
+.skewed__reverse--top:before{
     background: inherit;
     top: 0;
     transform-origin: 0 100%;
@@ -70,7 +69,8 @@
 }
 
 //! top and bottom
-.skewed__reverse--both {
+.skewed__reverse--both{
+    @include vr($padding: 4 0);
     position: relative;
     z-index: 1;
 }
@@ -94,7 +94,6 @@
     z-index: -1;
     outline: 1px solid transparent;
 }
-
 .skewed__reverse--both:after {
     bottom: 0;
     transform: skewY(-1.5deg);
@@ -109,56 +108,36 @@
 
 .screengrab.screengrab__jjcom {
     @include minimal-shadow();
-    // -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    // filter: grayscale(100%);
-}
-
-.screengrab {
-    mix-blend-mode: screen;
-    // filter: grayscale(1);
-}
-
-.project-image {
-    background: $tertiary;
-    transition: .5s;
-}
-
-.project-image:hover {
-    background: transparent;
-}
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+    
+    }
 
 
-
-/*=============================================
+    
+    /*=============================================
     =            dropshadows            =
     =============================================*/
-// section container drop-shadows ( .section-container--availability & .section-container--projects disabled)   
-.section-container--skills {
-    // @include minimal-shadow();    
-}
+ // section container drop-shadows ( .section-container--availability & .section-container--projects disabled)   
+    .section-container--skills{
+        @include minimal-shadow();    
+    }
 
-.section-container--intro,
-.section-container--priors:after {
-    @include dark-shadow();
-}
+    .section-container--intro, .section-container--priors:after{
+        @include dark-shadow();
+    }
+    
+    .section-container--skills:after{
+        @include dark-shadow();
+    }
 
-.section-container--skills:after {
-    @include dark-shadow();
-}
+    .scroll-top{
+        // @include dark-shadow();
+    }
 
-.scroll-top {
-    // @include dark-shadow();
-}
-
-.overlay {
+.overlay{
     // -webkit-box-shadow: 24px 19px 22px -13px rgba(0, 0, 0, .8);
     // -moz-box-shadow: 24px 19px 22px -13px rgba(0, 0, 0, .8);
     // box-shadow: 24px 19px 22px -13px rgba(0, 0, 0, .8);
-    @include dark-shadow();
+@include dark-shadow();
 }
-
-
-
-/*=============================================
-=            hover            =
-=============================================*/

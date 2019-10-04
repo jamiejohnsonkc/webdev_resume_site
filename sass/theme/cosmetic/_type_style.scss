@@ -2,11 +2,4 @@
     text-transform: lowercase;
     font-weight: normal;
     font-style: italic;
-    @include vr($font-size: 0);
 }
-
-.project-caption a {
-    @include vr($font-size: 0);
-    font-style: italic;
-}
-

@@ -7,28 +7,20 @@
 
 .text__contact span{
     // background-image: linear-gradient(to right top, #bf2604, #c82804, #d22a04, #db2c05, #e52e05, #e93b06, #ee4608, #f2500b, #f26214, #f2721e, #f28029, #f28d35);
-background: $secondary;
-border-radius: .5rem;
-}
-
-.section-container--projects{
-    // background: $primary;
+background: $primary;
+border-radius: 2rem;
 }
 
 .section-container--skills {
-    background: $secondary;
-    // background: darken($neutral, 20%);
+    background: $primary;
 }
-
-.section-container--availability{
-    // background: $blaze;
-}
-
 .section-container--priors {
-    background: $tertiary;
+    background: $secondary;
 }
 
-
+.footer{
+    background: #9997a6;
+}
 
 
 /*=============================================
@@ -120,21 +112,6 @@ fill: $gray-600;
 }
 
 
-
-/*=============================================
-=            imagery            =
-=============================================*/
-//! moved to effect assignment
-
-// .project-image{
-//     background: $secondary;
-// }
-
-
-
-
-
-
 /*=============================================
 =            iconography            =
 =============================================*/
@@ -165,8 +142,8 @@ a {
     color: $secondary;
 }
 
-.content--projects, .content--projects a{
-        color: $off-black;
+.content--projects{
+        color: $primary-300;
 }
 
 
@@ -182,7 +159,7 @@ a {
 
 .section-container--availability{
 h3, h4{
-color: $secondary;
+color: $accent;
 }
 }
 
