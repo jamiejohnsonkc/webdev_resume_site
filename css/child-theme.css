@@ -9535,7 +9535,7 @@ a {
   color: #F23005; }
 
 .content--projects, .content--projects a {
-  color: #071013; }
+  color: #090909; }
 
 /* section-specific */
 .section-container--intro {
@@ -9817,5 +9817,8 @@ a {
     .project-caption a {
       font-size: 1rem;
       line-height: 1.50001rem; } }
+
+#wpadminbar {
+  display: none; }
 
 /*# sourceMappingURL=child-theme.css.map */

@@ -3,20 +3,24 @@
 //* =           color definitions            =
 //*============================================*/
 
-//blacks & whites
+//whites
 $white                                : #ffffff !default;
 $off-white                            : #fdfdfd;
 $snow-white                           : #fffafa;
 $ghost-white                          : #F8F8FF;
 $dirty-white                          : #f9f9f9;
+
+//blacks
+$black                                : #000;
+$off-black                            : #090909 !default; // vampire-black
+$subtle-black                         : #131313; // chinese-black
+$eerie-black                          : #1a1a1a;
+$contrast-black                       : #202020; // raisin-black
+
+//grays
 $light-gray                           : #d3d3d3;
 $dark-gray                            : #a9a9a9;
 $gray                                 : #808080;
-$off-black                            : #071013 !default;
-$black                                : #000;
-
-
-// gray tints
 $gray-100                             : #f8f9fa !default;
 $gray-200                             : #e9ecef !default;
 $gray-300                             : #dee2e6 !default;
