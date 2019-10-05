@@ -4,7 +4,6 @@
 /* $nav-pills-link-active-color       : $component-active-color !default;
 $nav-pills-link-active-bg             : $component-active-bg !default; */
 /* Vertical Rhythm Reset: Base */
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
 *,
 *:before,
 *:after {
@@ -8791,63 +8790,6 @@ a.closebtn {
     .footer__subhead {
       margin-bottom: 1.50001rem; } }
 
-.navbar__mobile {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 4.50003rem;
-  padding-right: 2.25002rem;
-  padding-left: 2.25002rem; }
-  @media (min-width: 1em) {
-    .navbar__mobile {
-      height: 6.00003rem;
-      padding-right: 3.00002rem;
-      padding-left: 3.00002rem; } }
-  @media (min-width: 25em) {
-    .navbar__mobile {
-      height: 4.63639rem;
-      padding-right: 2.3182rem;
-      padding-left: 2.3182rem; } }
-  @media (min-width: 30em) {
-    .navbar__mobile {
-      height: 4.6667rem;
-      padding-right: 2.33335rem;
-      padding-left: 2.33335rem; } }
-  @media (min-width: 40em) {
-    .navbar__mobile {
-      height: 4.50003rem;
-      padding-right: 2.25002rem;
-      padding-left: 2.25002rem; } }
-  @media (min-width: 48em) {
-    .navbar__mobile {
-      height: 4.60003rem;
-      padding-right: 2.30002rem;
-      padding-left: 2.30002rem; } }
-  @media (min-width: 64em) {
-    .navbar__mobile {
-      height: 4.50003rem;
-      padding-right: 2.25002rem;
-      padding-left: 2.25002rem; } }
-  @media (min-width: 118em) {
-    .navbar__mobile {
-      height: 4.61541rem;
-      padding-right: 2.30771rem;
-      padding-left: 2.30771rem; } }
-  @media (min-width: 160em) {
-    .navbar__mobile {
-      height: 4.50003rem;
-      padding-right: 2.25002rem;
-      padding-left: 2.25002rem; } }
-
 .svg__site-glyph {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8864,65 +8806,6 @@ a.closebtn {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   width: 3rem;
   height: 3rem; }
-
-body {
-  background-color: #e0e0e0;
-  font-family: 'Source Sans Pro', sans-serif; }
-
-#maskDemo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-weight: 700; }
-
-#colorControls {
-  position: absolute;
-  top: 210px;
-  left: 0;
-  width: 400px;
-  height: 50px; }
-
-.swatch {
-  width: 46px;
-  height: 46px;
-  float: left;
-  margin: 0 2px;
-  cursor: pointer;
-  border-radius: 4px; }
-
-#wrap {
-  width: 400px;
-  height: 340px;
-  position: absolute;
-  opacity: 0; }
-
-#toggleDirection {
-  width: 300px;
-  height: 60px;
-  position: absolute;
-  bottom: 0;
-  left: 50px;
-  font-size: 22px;
-  cursor: pointer;
-  color: #676767;
-  font-weight: 700; }
-
-#follow {
-  position: absolute;
-  bottom: 16px;
-  right: 16px;
-  z-index: 1000;
-  font-size: 12px;
-  color: #444;
-  text-decoration: none;
-  text-align: right;
-  padding-right: 60px;
-  line-height: 1.1; }
-
-#follow svg {
-  position: absolute;
-  right: 0;
-  bottom: 0; }
 
 .scroll-top {
   border-radius: 100%;
