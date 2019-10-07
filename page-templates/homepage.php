@@ -34,7 +34,7 @@ get_header();
                 <div class="content content--intro">
                     <h1>Web Development & Design</h1>
                     <h2>Jamie Johnson</h2>
-                    <div class="text__contact">15512 W 79th Terrace, Lenexa, ks 66219<br><span>jamie@jamie-johnson.com |
+                    <div class="text__contact">15512 W 79th Terrace, Lenexa, ks 66219<br><span>jamie@jamie-johnson.me |
                             913-586-8042</span></div>
                     <p>Will this copy update? Id quis do nostrud laboris exercitation laborum in consequat irure
                         pariatur. Ad velit commodo ut commodo dolor elit officia ex cupidatat non magna.</p>
