@@ -54,29 +54,36 @@ border-radius: .5rem;
 /* overlay */
 
 
-.svg__site-glyph--reversed {
-    fill: $primary-400;
-}
 
 a.closebtn{
-    color: $primary-400;
+    color: $secondary;
 }
 
+.svg__site-glyph--overlay{
+fill: $secondary;
+}
 
 .overlay{
-   background: $primary;
-}
-
-.overlay__content{
-    background: $primary;
+    background: linear-gradient(#000000 28%, #313131 68%) no-repeat 50% 50% / 100% 100%;
+    //    background: $primary;
 }
 
 .overlay__content a{
-color: $white;
+color: $secondary;
 }
 
-.overlay__footer{
-    background: $primary-100;
+.icon__overlay-nav{
+    fill: $secondary;
+    }
+
+.container__footer-icons{
+    svg{
+        fill: $secondary;
+    }
+}
+
+.overlay__footer, .footer__text{
+    color: $secondary;
 }
 
 
@@ -140,9 +147,7 @@ fill: $gray-600;
     fill: $white;
 }
 
-.icon__overlay-nav{
-fill: $primary-400;
-}
+
 
 .icon__sidebar-nav{
     fill: $white;

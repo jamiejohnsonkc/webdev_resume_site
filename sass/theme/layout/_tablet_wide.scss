@@ -1,8 +1,7 @@
-
 @include mq('tablet-wide') {
 
 
-/*=============================================
+    /*=============================================
 =            page layout            =
 =============================================*/
 
@@ -13,12 +12,7 @@
         max-width: 100%;
         flex-direction: row;
     }
-    .svg__site-glyph {
-        width: 50%;
-        max-width: 50%;
-        @include vr($margin-bottom: 2);
-    }
-    
+
     article {
         position: relative;
         left: 23%;
@@ -37,16 +31,49 @@
 
     .section-container--intro {
         height: 100vh;
-       
+
     }
+
     .content--intro {
         flex: 0 1;
     }
 
+    //* sidebar
+
+    .svg__site-glyph {
+        width: 61%;
+        max-width: 61%;
+        @include vr($margin-bottom: 3);
+    }
+
+
+    .nav-item__sidebar {
+        @include vr($font-size: .75);
+     
+    }
+    
+
+    span.nav-item__sidebar {
+        @include vr($font-size: 0, $width: 4);
+    }
+
+    .sidebar__content-container a {
+        @include vr($margin-bottom: 1.25);
+    }
 
 
 
-/*=============================================
+
+    p {
+        width: 83%;
+    }
+
+
+
+
+
+
+    /*=============================================
 =            content width            =
 =============================================*/
     // .content--intro,
@@ -57,27 +84,27 @@
     // }
 
 
-    
+
     /*=============================================
     =            vertical spacing             =
     =============================================*/
-     
-    
-    
-//   .content--about{
-//         @include vr($margin-top: 3);
-//     }
-//     .section-container--projects, .section-container--availability, .section-container--priors {
-//         @include vr($margin: 6 0 6 0);
-//     }
 
-//     .section-container--about{
-//         @include vr($margin-bottom: 6);
-//     }
 
-    
-//     .section-container--priors {
-//         @include vr($margin-top: 2);
-//     }
-  
+
+    //   .content--about{
+    //         @include vr($margin-top: 3);
+    //     }
+    //     .section-container--projects, .section-container--availability, .section-container--priors {
+    //         @include vr($margin: 6 0 6 0);
+    //     }
+
+    //     .section-container--about{
+    //         @include vr($margin-bottom: 6);
+    //     }
+
+
+    //     .section-container--priors {
+    //         @include vr($margin-top: 2);
+    //     }
+
 }

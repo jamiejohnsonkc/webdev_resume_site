@@ -18,14 +18,6 @@
     height: 6rem;
 }
 
-.svg__site-glyph--reversed {
-    // left: 4%;
-    // top: 1.5%;
-    display: flex;
-    width: 4.25rem;
-    max-width: 4.25rem;
-}
-
 a.closebtn {
     @include vr($font-size: 3);
     font-weight: bold;
@@ -113,7 +105,6 @@ a.closebtn {
 
 .overlay__footer {
     min-height: 10rem;
-    background: #949697;
     display: flex;
     flex: 2;
     flex-direction: column;

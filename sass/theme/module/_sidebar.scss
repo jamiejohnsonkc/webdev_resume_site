@@ -73,7 +73,7 @@
 .sidebar__content-container a {
     max-width: 61%;
     width: 61%;
-    justify-content: space-around;
+    justify-content: center;
     text-decoration: none;
     display: flex;
     transition: 0.3s;
@@ -90,10 +90,7 @@
 // }
 .icon__sidebar-nav {
     display: flex;
-    @include vr($width: 1);
-    @include mq('desktop') {
-        @include vr($width: .75);
-    }
+    @include vr($width: 1, $margin-right: 1)
 }
 
 .nav-item__sidebar {

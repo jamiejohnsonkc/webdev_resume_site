@@ -1,0 +1,33 @@
+
+@include mq('desktop-uhd'){
+
+    .icon__sidebar-nav {
+        @include vr($width: 1, $margin-right: 2);
+    }
+
+    span.nav-item__sidebar {
+        @include vr($font-size: 1, $width: 5);
+    }
+
+    .sidebar__content-container a {
+        @include vr($margin-bottom: 1.25);
+    }
+}
+
+
+@include mq('desktop-retina'){
+//     .icon__sidebar-nav {
+//         @include vr($width: 1, $margin-right: 2);
+//     }
+
+//     span.nav-item__sidebar {
+//         @include vr($font-size: 1, $width: 5);
+//     }
+
+//     .sidebar__content-container a {
+//         @include vr($margin-bottom: 1.25);
+//     }
+p{
+    max-width: 61%;
+}
+ }

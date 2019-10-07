@@ -23,7 +23,7 @@
     }
 
     p {
-        width: 61%;
+        width: 83%;
     }
     
 
@@ -67,16 +67,14 @@
     }
 
 
-    #wrapper-footer{
-        .container{
-            max-width: 100%;
-        }
-    }
 
+
+
+    //* sidebar
     .svg__site-glyph{
-        max-width: 38.2%;
-        margin-left: 6%;
-        margin-right: 6%;
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
         @include vr($margin-bottom: 4);
     }
 
@@ -87,6 +85,13 @@
 
     .nav-item__sidebar{
         @include vr($font-size: 1);
+    }
+
+//* footer
+    #wrapper-footer{
+        .container{
+            max-width: 100%;
+        }
     }
 
 }
