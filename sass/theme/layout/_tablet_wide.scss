@@ -31,11 +31,13 @@
 
     .section-container--intro {
         height: 100vh;
+        min-height: 100vh;
 
     }
 
     .content--intro {
         flex: 0 1;
+        min-height: 27em;
     }
 
     //* sidebar

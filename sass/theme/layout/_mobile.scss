@@ -25,6 +25,14 @@ p{
 
 //? should this be it's own sheet?
 
+
+@include mq('phone-wide',$type: max){
+    .section-container--intro{
+        min-height: 110vh;
+    }
+}
+
+
 @include mq('tablet-wide',
 $type:max) {
     #full-width-page-wrapper {
@@ -40,6 +48,16 @@ $type:max) {
         align-items: center;
         text-align: center;
     }
+
+    .svg__site-glyph--overlay{
+        height: 5rem;
+        min-height: 5rem;
+    }
+
+    .content--intro h1{
+        padding-top: 7rem;
+    }
+
 }
 
 

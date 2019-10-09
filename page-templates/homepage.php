@@ -26,7 +26,7 @@ get_header();
     <main class="site-main" id="main">
 
         <div class="sidebar__container">
-            <?php get_sidebar(); ?>
+            <?php get_sidebar(); ?> 
         </div>
 
         <article>

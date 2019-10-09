@@ -14,7 +14,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: .5rem 4rem;
+    padding: 1rem 4rem .5rem 4rem;
     height: 6rem;
 }
 
@@ -60,9 +60,12 @@ a.closebtn {
     justify-content: center;
     min-height: 33rem;
     flex: 6;
+    padding-top: 1.5rem;
 }
 
-.overlay__menu {}
+.overlay__menu {
+    min-height: 30em;
+}
 
 .overlay__content a {
     max-width: 100%;
@@ -128,11 +131,13 @@ a.closebtn {
 .footer__text {
     text-transform: uppercase;
     color: #f1f1f1;
+    margin-bottom: 1.5rem;
 }
 
 .footer__head {
     @include vr($font-size: 2);
     display: block;
+    font-weight: 100;
 }
 
 .footer__subhead {

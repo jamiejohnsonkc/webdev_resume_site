@@ -44,3 +44,9 @@ function understrap_change_logo_class($html)
 
     return $html;
 }
+
+function enqueue_adobe_fonts_stylesheet()
+{
+    wp_enqueue_style('adobe_fonts_stylesheet', 'https://use.typekit.net/hny8rtu.css', 'all');
+}
+    add_action('wp_enqueue_scripts', 'enqueue_adobe_fonts_stylesheet');

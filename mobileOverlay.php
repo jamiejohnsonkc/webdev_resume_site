@@ -18,6 +18,8 @@ if (!defined('ABSPATH')) {
 <!-- Overlay content -->
 <div class="overlay__content">
 
+
+
     <div class="overlay__menu">
         <a href="#"><img src="/wp-content/uploads/2019/09/home.svg" class="style-svg icon__overlay-nav" alt="home"><span class="nav-item__overlay">home</span></a>
         <a href="#"><img src="/wp-content/uploads/2019/09/code.svg" class="style-svg icon__overlay-nav" alt="home"><span class="nav-item__overlay">projects</span></a>
@@ -30,19 +32,18 @@ if (!defined('ABSPATH')) {
 </div>
 
 <div class="overlay__footer">
-    <div class="footer__text">
-        <div class="footer__head">Jamie Johnson</div>
-        <div class="footer__subhead">web development & design</div>
-    </div>
-    <div class="container__footer-icons">
-    <div class="container__sidebar-icons">
-    <a href="https://github.com/jamiejohnsonkc">              <img src="/wp-content/uploads/2019/09/icon__skills-28.svg" class="style-svg icon__contact--sidebar" alt="github" /></a>
-    <a href="https://www.reddit.com/user/CleverJsNomDePlume"> <img src="/wp-content/uploads/2019/09/icon__skills-98.svg" class="style-svg icon__contact--sidebar" alt="reddit" /></a>
-    <a href="https://www.linkedin.com/in/jamiejohnsonkc/">    <img src="/wp-content/uploads/2019/09/icon__skills-24.svg" class="style-svg icon__contact--sidebar" alt="linkedin" /></a>
-    <a href="https://www.facebook.com/jamie.johnson.37051579"><img src="/wp-content/uploads/2019/09/icon__skills-83.svg" class="style-svg icon__contact--sidebar" alt="facebook" /></a>
     
+<div class="footer__text">
+        <div class="footer__head">Jamie Johnson</div>
     </div>
+
+    <div class="container__footer-icons">
+
+        <a href="https://github.com/jamiejohnsonkc"> <img src="/wp-content/uploads/2019/09/icon__skills-28.svg" class="style-svg icon__contact--sidebar" alt="github" /></a>
+        <a href="https://www.reddit.com/user/CleverJsNomDePlume"> <img src="/wp-content/uploads/2019/09/icon__skills-98.svg" class="style-svg icon__contact--sidebar" alt="reddit" /></a>
+        <a href="https://www.linkedin.com/in/jamiejohnsonkc/"> <img src="/wp-content/uploads/2019/09/icon__skills-24.svg" class="style-svg icon__contact--sidebar" alt="linkedin" /></a>
+        <a href="https://www.facebook.com/jamie.johnson.37051579"><img src="/wp-content/uploads/2019/09/icon__skills-83.svg" class="style-svg icon__contact--sidebar" alt="facebook" /></a>
+
     </div>
 
 </div>
-

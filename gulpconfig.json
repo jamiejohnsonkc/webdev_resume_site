@@ -1,7 +1,8 @@
 {
   "browserSyncOptions" : {
-    "proxy": "localhost/wordpress/",
-    "notify": false
+    "proxy": "resume.test",
+    "notify": false,
+    "online": true
   },
   "browserSyncWatchFiles" : [
     "./css/*.min.css",

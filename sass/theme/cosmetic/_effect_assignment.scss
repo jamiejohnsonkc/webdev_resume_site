@@ -107,15 +107,10 @@
 =            misc          =
 =============================================*/
 
-.screengrab.screengrab__jjcom {
+.screengrab.screengrab__jjcom{ 
     @include minimal-shadow();
-    // -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    // filter: grayscale(100%);
-}
-
-.screengrab {
-    mix-blend-mode: screen;
-    // filter: grayscale(1);
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 .project-image {
@@ -123,8 +118,28 @@
     transition: .5s;
 }
 
+.screengrab {
+    mix-blend-mode: screen;
+    // filter: grayscale(1);
+}
+
+
+@include mq('desktop'){
+.screengrab.screengrab__jjcom {
+    filter: grayscale(0);
+}
+
+
+
 .project-image:hover {
     background: transparent;
+}
+
+
+
+
+
+
 }
 
 
