@@ -8943,7 +8943,10 @@ a.closebtn {
   min-height: 10em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  max-width: 61%; }
 
 .icon__contact--sidebar {
   fill: #f1f1f1;
@@ -10111,6 +10114,10 @@ a {
     .project-caption a {
       font-size: 1rem;
       line-height: 2.00001rem; } }
+
+.project-description a {
+  line-height: inherit;
+  color: #F23005; }
 
 #wpadminbar {
   display: none; }

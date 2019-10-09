@@ -135,8 +135,8 @@
     display: flex;
     min-height: 10em;
     justify-content: center;
-    // flex: 1 0 100%;
-    // flex-direction: row;
+    align-self: center;
+    max-width: 61%;
 }
 
 .icon__contact--sidebar {

@@ -34,17 +34,15 @@ get_header();
                 <div class="content content--intro">
                     <h1>Web Development & Design</h1>
                     <h2>Jamie Johnson</h2>
-                    <div class="text__contact">15512 W 79th Terrace, Lenexa, ks 66219<br><span>jamie@jamie-johnson.com |
+                    <div class="text__contact">15512 W 79th Terrace, Lenexa, KS 66219<br><span>jamie@jamie-johnson.me |
                             913-586-8042</span></div>
-                    <p>Will this copy update? Id quis do nostrud laboris exercitation laborum in consequat irure
-                        pariatur. Ad velit commodo ut commodo dolor elit officia ex cupidatat non magna.</p>
-                    <p>Nostrud commodo proident aliqua laborum duis magna ullamco. Qui proident duis aliqua veniam ea.
-                    </p>
+                    <p>In a pinch? Need to boost capacity to get you through? Or maybe someone to free your team from the grunt work? Call me.</h3>
+                    <p>I'm available, affordable and will deliver as asked, on time with zero hassle.</p>
 
                     <a href="https://github.com/jamiejohnsonkc"><img src="/wp-content/uploads/2019/09/icon__skills-28.svg" class="style-svg icon__contact" alt="github" /></a>
                     <a href="https://www.reddit.com/user/CleverJsNomDePlume"><img src="/wp-content/uploads/2019/09/icon__skills-98.svg" class="style-svg icon__contact" alt="reddit" /></a>
                     <a href="https://www.linkedin.com/in/jamiejohnsonkc/"><img src="/wp-content/uploads/2019/09/icon__skills-24.svg" class="style-svg icon__contact" alt="linkedin" /></a>
-                    <a href=""><img src="/wp-content/uploads/2019/09/icon__skills-83.svg" class="style-svg icon__contact" alt="facebook" /></a>
+                    <a href="https://www.facebook.com/jamie.johnson.37051579"><img src="/wp-content/uploads/2019/09/icon__skills-83.svg" class="style-svg icon__contact" alt="facebook" /></a>
                 </div>
             </section>
 
@@ -69,6 +67,7 @@ get_header();
                             <p>PageSpeed 92%, YSlow 86%, full load 2.3s, page size 1.08MB, !important declarations
                                 0.</p>
                             <p>Underway: refactoring. Future: modular reconfiguration.</p>
+                            <p>btw: if you want to know what I do when I'm not freelancing, <a href="https://jamie-johnson.com">here ya go.</a></p>
                         </div>
 
                     </div>
@@ -81,75 +80,84 @@ get_header();
                     <h3>skills</h3>
 
                     <h4>methods</h4>
-                    <img src="/wp-content/uploads/2019/09/icon__skills-88.svg" class="style-svg icon__skills" alt="responsive" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-42.svg" class="style-svg icon__skills" alt="wordpress" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-90.svg" class="style-svg icon__skills" alt="semantic web" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-92.svg" class="style-svg icon__skills" alt="seo" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-88.svg" class="style-svg icon__skills" title="responsive" alt="responsive" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-42.svg" class="style-svg icon__skills" title="wordpress" alt="wordpress" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-90.svg" class="style-svg icon__skills" title="semantic web" alt="semantic web" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-92.svg" class="style-svg icon__skills" title="seo" alt="seo" />
+ 
 
                     <h4>frameworks</h4>
-                    <img src="/wp-content/uploads/2019/09/icon__skills-19.svg" class="style-svg icon__skills" alt="bootstrap" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-70.svg" class="style-svg icon__skills" alt="jsnode" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-67.svg" class="style-svg icon__skills" alt="webpack" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-19.svg" class="style-svg icon__skills" title="bootstrap" alt="bootstrap" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-70.svg" class="style-svg icon__skills" title="jsnode" alt="jsnode" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-67.svg" class="style-svg icon__skills" title="webpack" alt="webpack" />
+ 
 
                     <h4>languages</h4>
-                    <img src="/wp-content/uploads/2019/09/icon__skills-15.svg" class="style-svg icon__skills" alt="html" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-14.svg" class="style-svg icon__skills" alt="css" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-46.svg" class="style-svg icon__skills" alt="javascript" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-54.svg" class="style-svg icon__skills" alt="sass" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-49.svg" class="style-svg icon__skills" alt="php" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-48.svg" class="style-svg icon__skills" alt="jquery" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-89.svg" class="style-svg icon__skills" alt="xml" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-51.svg" class="style-svg icon__skills" alt="less" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-16.svg" class="style-svg icon__skills" alt="json" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-17.svg" class="style-svg icon__skills" alt="markdown" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-15.svg" class="style-svg icon__skills" title="html" alt="html" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-14.svg" class="style-svg icon__skills" title="css" alt="css" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-46.svg" class="style-svg icon__skills" title="javascript" alt="javascript" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-54.svg" class="style-svg icon__skills" title="sass" alt="sass" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-49.svg" class="style-svg icon__skills" title="php" alt="php" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-48.svg" class="style-svg icon__skills" title="jquery" alt="jquery" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-89.svg" class="style-svg icon__skills" title="xml" alt="xml" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-51.svg" class="style-svg icon__skills" title="less" alt="less" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-16.svg" class="style-svg icon__skills" title="json" alt="json" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-17.svg" class="style-svg icon__skills" title="markdown" alt="markdown" />
+
 
                     <h4>tools</h4>
-                    <img src="/wp-content/uploads/2019/09/icon__skills-58.svg" class="style-svg icon__skills" alt="gulp" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-28.svg" class="style-svg icon__skills" alt="github" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-52.svg" class="style-svg icon__skills" alt="npm" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-73.svg" class="style-svg icon__skills" alt="yarn" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-55.svg" class="style-svg icon__skills" alt="grunt" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-50.svg" class="style-svg icon__skills" alt="bower" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-86.svg" class="style-svg icon__skills" alt="composer" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-38.svg" class="style-svg icon__skills" alt="vagrant" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-58.svg" class="style-svg icon__skills" title="gulp" alt="gulp" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-28.svg" class="style-svg icon__skills" title="github" alt="github" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-52.svg" class="style-svg icon__skills" title="npm" alt="npm" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-73.svg" class="style-svg icon__skills" title="yarn" alt="yarn" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-55.svg" class="style-svg icon__skills" title="grunt" alt="grunt" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-50.svg" class="style-svg icon__skills" title="bower" alt="bower" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-86.svg" class="style-svg icon__skills" title="composer" alt="composer" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-38.svg" class="style-svg icon__skills" title="vagrant" alt="vagrant" />
+
 
                     <h4>development</h4>
-                    <img src="/wp-content/uploads/2019/09/icon__skills-93.svg" class="style-svg icon__skills" alt="terminal" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-65.svg" class="style-svg icon__skills" alt="local by flywheel" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-34.svg" class="style-svg icon__skills" alt="nginx" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-31.svg" class="style-svg icon__skills" alt="mysql" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-34.svg" class="style-svg icon__skills" alt="apache" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-37.svg" class="style-svg icon__skills" alt="ssh" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-93.svg" class="style-svg icon__skills" title="terminal" alt="terminal" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-65.svg" class="style-svg icon__skills" title="local by flywheel" alt="local by flywheel" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-34.svg" class="style-svg icon__skills" title="nginx" alt="nginx" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-31.svg" class="style-svg icon__skills" title="mysql" alt="mysql" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-34.svg" class="style-svg icon__skills" title="apache" alt="apache" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-37.svg" class="style-svg icon__skills" title="ssh" alt="ssh" />
+
 
                     <h4>editors</h4>
-                    <img src="/wp-content/uploads/2019/09/icon__skills-42.svg" class="style-svg icon__skills" alt="VScode" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-22.svg" class="style-svg icon__skills" alt="sublime text" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-74.svg" class="style-svg icon__skills" alt="dreamweaver" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-42.svg" class="style-svg icon__skills" title="VScode" alt="VScode" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-22.svg" class="style-svg icon__skills" title="sublime text" alt="sublime text" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-74.svg" class="style-svg icon__skills" title="dreamweaver" alt="dreamweaver" />
+
 
                     <h4>design</h4>
-                    <img src="/wp-content/uploads/2019/09/icon__skills-32.svg" class="style-svg icon__skills" alt="adobe xd" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-68.svg" class="style-svg icon__skills" alt="adobe photoshop" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-44.svg" class="style-svg icon__skills" alt="adobe illustrator" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-71.svg" class="style-svg icon__skills" alt="adobe typekit" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-56.svg" class="style-svg icon__skills" alt="adobe lightroom" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-03.svg" class="style-svg icon__skills" alt="gimp" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-18.svg" class="style-svg icon__skills" alt="inkscape" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-95.svg" class="style-svg icon__skills" alt="ms office" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-32.svg" class="style-svg icon__skills" title="adobe xd" alt="adobe xd" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-68.svg" class="style-svg icon__skills" title="adobe photoshop" alt="adobe photoshop" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-44.svg" class="style-svg icon__skills" title="adobe illustrator" alt="adobe illustrator" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-71.svg" class="style-svg icon__skills" title="adobe typekit" alt="adobe typekit" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-56.svg" class="style-svg icon__skills" title="adobe lightroom" alt="adobe lightroom" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-03.svg" class="style-svg icon__skills" title="gimp" alt="gimp" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-18.svg" class="style-svg icon__skills" title="inkscape" alt="inkscape" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-95.svg" class="style-svg icon__skills" title="ms office" alt="ms office" />
+
 
                     <h4>operating systems</h4>
-                    <img src="/wp-content/uploads/2019/09/icon__skills-08.svg" class="style-svg icon__skills" alt="windows" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-07.svg" class="style-svg icon__skills" alt="linux" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-06.svg" class="style-svg icon__skills" alt="ios" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-08.svg" class="style-svg icon__skills" title="windows" alt="windows" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-07.svg" class="style-svg icon__skills" title="linux" alt="linux" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-06.svg" class="style-svg icon__skills" title="ios" alt="ios" />
+
 
                     <h4>browsers</h4>
-                    <img src="/wp-content/uploads/2019/09/icon__skills-12.svg" class="style-svg icon__skills" alt="chrome" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-84.svg" class="style-svg icon__skills" alt="firefox" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-85.svg" class="style-svg icon__skills" alt="safari" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-87.svg" class="style-svg icon__skills" alt="internet explorer" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-12.svg" class="style-svg icon__skills" title="chrome" alt="chrome" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-84.svg" class="style-svg icon__skills" title="firefox" alt="firefox" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-85.svg" class="style-svg icon__skills" title="safari" alt="safari" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-87.svg" class="style-svg icon__skills" title="internet explorer" alt="internet explorer" />
+
 
                     <h4>next up</h4>
-                    <img src="/wp-content/uploads/2019/09/icon__skills-81.svg" class="style-svg icon__skills" alt="ES6" />
-                    <img src="/wp-content/uploads/2019/09/icon__skills-40.svg" class="style-svg icon__skills" alt="react" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-81.svg" class="style-svg icon__skills" title="ES6" alt="ES6" />
+                    <img src="/wp-content/uploads/2019/09/icon__skills-40.svg" class="style-svg icon__skills" title="react" alt="react" />
 
                 </div>
             </section>
