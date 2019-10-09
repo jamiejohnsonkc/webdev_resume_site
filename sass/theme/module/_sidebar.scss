@@ -135,6 +135,8 @@
     display: flex;
     min-height: 10em;
     justify-content: center;
+    align-self: center;
+    max-width: 61%;
     // flex: 1 0 100%;
     // flex-direction: row;
 }

@@ -36,10 +36,10 @@ if (!defined('ABSPATH')) {
     </div>
     <div class="container__footer-icons">
     <div class="container__sidebar-icons">
-        <img src="/wp-content/uploads/2019/09/icon__skills-28.svg" class="style-svg icon__contact--sidebar" alt="github" />
-        <img src="/wp-content/uploads/2019/09/icon__skills-98.svg" class="style-svg icon__contact--sidebar" alt="reddit" />
-        <img src="/wp-content/uploads/2019/09/icon__skills-24.svg" class="style-svg icon__contact--sidebar" alt="linkedin" />
-        <img src="/wp-content/uploads/2019/09/icon__skills-83.svg" class="style-svg icon__contact--sidebar" alt="facebook" />
+    <a href="https://github.com/jamiejohnsonkc">              <img src="/wp-content/uploads/2019/09/icon__skills-28.svg" class="style-svg icon__contact--sidebar" alt="github" /></a>
+    <a href="https://www.reddit.com/user/CleverJsNomDePlume"> <img src="/wp-content/uploads/2019/09/icon__skills-98.svg" class="style-svg icon__contact--sidebar" alt="reddit" /></a>
+    <a href="https://www.linkedin.com/in/jamiejohnsonkc/">    <img src="/wp-content/uploads/2019/09/icon__skills-24.svg" class="style-svg icon__contact--sidebar" alt="linkedin" /></a>
+    <a href="https://www.facebook.com/jamie.johnson.37051579"><img src="/wp-content/uploads/2019/09/icon__skills-83.svg" class="style-svg icon__contact--sidebar" alt="facebook" /></a>
     </div>
     </div>
 
